@@ -1,0 +1,23 @@
+Notes:
+		- Do not use !important on color attribute on anchor tag.
+		- Outlook 2010/2013: Do not use !important on color for <h1>
+		- Use full 6 character hex value.
+		- Outlook 2010/2013: To set the color of the text in a button wrap the text in a span tag.
+
+Microsoft Specifics:
+
+<!--[!if gte mso 9]><!-->
+ // This will be ignored by Outlook 2007
+<![endif]-->
+
+<!--[!if gte mso 15]><!-->
+ // This will be ignored by Outlook 2013
+<![endif]-->
+
+<!--[if !mso]><!-->
+ // This will be ignored by all Microsoft Outlook
+<!--<![endif]-->
+
+References:
+- http://templates.mailchimp.com/development/css/outlook-conditional-css/
+- http://stackoverflow.com/questions/16861336/outlook-2007-to-2013-displaying-device-media-queries

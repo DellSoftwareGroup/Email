@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width"/>
+	<link rel="stylesheet" href="/email/css/global.css">
+	<link rel="stylesheet" href="/email/css/dsg-global.css">
+</head>
+<body>
+
+<table class="body">
+	<tr>
+		<td>
+
+			<table class="header">
+				<tr>
+					<td class="center" align="center" valign="top">
+						<center>
+							<table class="container">
+								<tr>
+									<td>
+										<!-- $$onlineoption$$ -->
+										<div $$onlineoption$$>
+											<table class="row">
+												<tr>
+													<td class="wrapper last">
+
+														<table class="twelve columns">
+															<tr>
+																<td>
+																	View this email <a href="$$onlineurl$$/">online</a>
+																</td>
+																<td class="expander"></td>
+															</tr>
+														</table>
+
+													</td>
+												</tr>
+											</table>
+										</div>
+
+										<table class="row">
+											<tr>
+												<td class="wrapper last">
+													<table class="twelve columns">
+														<tr>
+															<td>
+																<img src="http://software.dell.com/images/email/logo-white-sm.png">
+															</td>
+															<td class="expander"></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+
+									</td>
+								</tr>
+							</table>
+						</center>
+					</td>
+				</tr>
+			</table>
+
+			<!-- Start Content -->
+
+			<center>
+				<table class="container">
+					<tr>
+						<td>
+
+							<table class="row">
+								<tr>
+									<td class="wrapper last">
+
+										<table class="twelve columns">
+											<tr>
+												<td>
+													<h1><!-- @Html.Raw(Model.TYBodyContent) -->Thank you for your interest in Building Higher IT Business Continuity in the Face of
+														Disaster.</h1>
+												</td>
+												<td class="expander"></td>
+											</tr>
+										</table>
+
+									</td>
+								</tr>
+							</table>
+
+							<!-- Centered Button -->
+							<!-- @if (Model.TYEmailAssetGuid != null) { -->
+							<center>
+								<table class="button" style="width: auto; margin-bottom: 0;">
+									<tr>
+										<td class="button-grey">
+											<!-- @(Model.DomainPath + Model.RegionPath + "/reginbound/emailcl/" + Model.TYEmailAssetGuid) -->
+											<a href="#"><!-- @Model.ButtonText -->Download Your White Paper</a>
+										</td>
+									</tr>
+								</table>
+							</center>
+							<!-- } -->
+
+							<!-- Social Media -->
+							<!-- [Landing Page URL]   = http%3A%2F%2Fsoftware.dell.com%2Fsolutions%2Fdata-protection%2F -->
+							<!-- [Landing Page URL]   = @(Model.DomainPath + Model.RegionPath +  "/" + Model.CurrentPageURL) -->
+							<!-- [Landing Page Title] = Data%20Protection%20Solutions%20|%20Dell%20Software -->
+							<!-- [Landing Page Title] = @Model.Title -->
+							<!-- [Bitly URL]          = http%3A%2F%2Fdell.to%2F10ADr7z -->
+							<!-- [Bitly URL]          = @Model.BitlyGet(uri) -->
+							<center>
+								<table id="social-media">
+									<tr>
+										<td><span>Share</span></td>
+										<td><a href="https://plus.google.com/share?url=[Landing Page URL]"><img
+											src="http://software.dell.com/images/email/icons-google-plus.png"></a></td>
+										<td><a
+											href="https://twitter.com/share?text=[Landing Page Title]%2C%20&url=[Bitly URL]&via=DellSoftware"><img
+											src="http://software.dell.com/images/email/icons-twitter.png"></a></td>
+										<td><a href="https://www.linkedin.com/shareArticle?url=[Landing Page URL]"><img
+											src="http://software.dell.com/images/email/icons-linkedin.png"></a></td>
+										<td><a href="https://www.facebook.com/sharer/sharer.php?u=[Landing Page URL]"><img
+											src="http://software.dell.com/images/email/icons-facebook.png"></a></td>
+									</tr>
+								</table>
+							</center>
+
+						</td>
+					</tr>
+				</table>
+			</center>
+
+			<!-- @if (Model.TYPromotions != null && Model.TYPromotions.Any()) { -->
+			<table class="bg-grey">
+				<tr>
+					<td class="center" align="center" valign="top">
+						<center>
+							<table class="container">
+								<tr>
+									<td class="pv-30">
+										<table class="row">
+											<tr>
+												<td class="wrapper">
+													<table class="five columns">
+														<tr>
+															<td class="center" align="center">
+																<center>
+																	<!-- @if (!String.IsNullOrEmpty(Model.TYPromotions[0].ImageUrl)) { -->
+																	<!-- @(Model.DomainPath + Model.RegionPath +  "/" + Model.RegInfo.SecondaryCTATacticCode) -->
+																	<a href="#">
+																		<!-- SRC: @(Model.DomainPath + Model.RegionPath +  Model.TYPromotions[0].ImageUrl) -->
+																		<!-- ALT: @(Model.DomainPath + Model.RegionPath + Model.TYPromotions[0].ImageAltText) -->
+																		<img src="http://software.dell.com/documents/images/casino-new-brunswick-casino-enjoys-secure-reliable-data-protection-with-appassure-case-study-67539.jpg" class="img-border center">
+																	</a>
+																	<!-- } -->
+																</center>
+															</td>
+															<td class="expander"></td>
+														</tr>
+													</table>
+												</td>
+												<td class="wrapper last">
+													<table class="seven columns">
+														<tr>
+															<td>
+																<!-- @Html.Raw(Model.TYPromotions[0].Title) -->
+																<h2 class="text-purple"><strong>Next Step:</strong> Solving Data Growth Issues using Deduplication</h2>
+
+																<!-- @Html.Raw(Model.TYPromotions[0].BodyContent) -->
+																<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum fermentum erat eu
+																	diam accumsan dictum. Ut sapien sapien, lobortis sagittis sem et, eleifend luctus
+																	ex.</p>
+
+																<table class="button button-blue button-width-auto">
+																	<tr>
+																		<td>
+																			<a href="#">Move Down The Path</a>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td class="expander"></td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</center>
+					</td>
+				</tr>
+			</table>
+			<!-- } -->
+
+			<!-- @if (!String.IsNullOrEmpty(Model.TYPromotionContent)) { -->
+			<center>
+				<div class="pv-20">
+					<table class="container">
+						<tr>
+							<td>
+
+								<table class="row">
+									<tr>
+										<td class="wrapper last">
+
+											<table class="twelve columns">
+												<tr>
+													<td>
+														<!-- @Html.Raw(Model.TYPromotionContent) -->
+														<p><strong>Here are some additional resources to learn more about IT business
+															continuity.</strong></p>
+														<ul>
+															<li>
+																<a href="#">Check out our blog</a> for helpful tips and learn more about what others are
+																saying.
+															</li>
+															<li>
+																<a href="#">Watch an intro video</a> to learn how to return even more on your
+																investment.
+															</li>
+														</ul>
+													</td>
+												</tr>
+											</table>
+
+										</td>
+									</tr>
+								</table>
+
+							</td>
+						</tr>
+					</table>
+				</div>
+			</center>
+			<!-- } -->
+
+			<!-- End Content -->
+
+			<table class="footer">
+				<tr>
+					<td class="center" align="center" valign="top">
+						<center>
+							<table class="container">
+							<tr>
+								<td style="padding-bottom: 10px;">
+
+									<table class="row">
+										<tr>
+											<td class="wrapper hide-for-small">
+
+												<table class="five columns">
+													<tr>
+														<td style="padding-top: 10px;">
+															<img src="http://software.dell.com/images/email/logo-white-lg.png">
+														</td>
+														<td class="expander"></td>
+													</tr>
+												</table>
+
+											</td>
+											<td class="wrapper last">
+
+												<table class="seven columns">
+													<tr>
+														<td class="text-sm">
+															Dell Software
+															<br>
+															5 Polaris Way, Aliso Viejo, CA 92656
+															<br><br>
+															Contact Us:
+															<br>
+															1-800-306-9329
+															<br>
+															<a href="mailto:info@software.dell.com">info@software.dell.com</a>
+														</td>
+														<td class="expander"></td>
+													</tr>
+												</table>
+
+											</td>
+										</tr>
+									</table>
+
+									<table class="row">
+										<tr>
+											<td class="wrapper last text-sm center" align="center">
+												<center>
+													<a href="http://software.dell.com">Software.Dell.com</a> | <a href="http://software.dell.com/legal/privacy.aspx">Privacy Statement</a> |
+													<a
+														href="https://ecomm.dell.com/GSC/ListRemoval/Index?returnPath=www.dell.com/content/topics/global.aspx/policy/en/country_specific&s=gen&~section=023&c=us&l=en">Unsubscribe from Dell</a> | <a href="http://software.dell.com/unsubscribe">Unsubscribe from Dell Software</a>
+
+													<br>
+
+													This email is an advertisement or solicitation from Dell Software. &copy; 2015 Dell Inc. All rights reserved.
+												</center>
+											</td>
+										</tr>
+									</table>
+
+								</td>
+							</tr>
+						</table>
+						</center>
+					</td>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+</table>
+
+<!-- Tracking Pixel -->
+<img src="http://activate.software.dell.com/no-content?at=7" width="1" height="1"/>
+
+</body>
+</html>
