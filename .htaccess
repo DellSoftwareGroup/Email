@@ -2,9 +2,9 @@ RewriteCond %{SCRIPT_FILENAME} -f
 RewriteCond %{SCRIPT_FILENAME} (.*?).htm[l]?$
 RewriteCond %{SCRIPT_FILENAME} !index.php
 RewriteCond %{QUERY_STRING} (.+)
-RewriteRule (.*)\?(.*?)$ /email/index.php?page=$1&$2 [QSA,NC,L]
+RewriteRule (.*)\?(.*?)$ /index.php?page=$1&$2 [QSA,NC,L]
 
 RewriteCond %{SCRIPT_FILENAME} -f
 RewriteCond %{SCRIPT_FILENAME} (.*?).htm[l]?$
 RewriteCond %{SCRIPT_FILENAME} !index.php
-RewriteRule (.*)$ /email/index.php?page=$1 [QSA,NC,L]
+RewriteRule (.*)$ /index.php?page=$1 [QSA,NC,L]
