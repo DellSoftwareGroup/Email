@@ -13,7 +13,7 @@ if (isset($_GET['download'])) {
 	header("Content-Transfer-Encoding: Ascii");
 	header("Content-disposition: attachment; filename=\"{$info['basename']}\"");
 }
-else {
+else if(!isset($_GET['noTools'])) {
 	$toolbar = <<<END
 <div style="position: fixed; bottom: 0; right: 0; border: 1px solid #444; padding: 5px; background-color: #c0c0c0;">
 	<div>- <a href="?download">Download File</a></div>

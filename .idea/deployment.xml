@@ -2,6 +2,20 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="email.codingbyhand.com">
     <serverData>
+      <paths name="UWLA">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="UWLA (root path)">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="cms400">
         <serverdata>
           <mappings>
@@ -27,13 +41,6 @@
         <serverdata>
           <mappings>
             <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
-          </mappings>
-        </serverdata>
-      </paths>
-      <paths name="uwla">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
