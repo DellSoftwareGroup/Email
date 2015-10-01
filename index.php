@@ -33,6 +33,6 @@ END;
 
 $content = $widget->content();
 
-$content = str_replace('</body>', $toolbar, $content);
+$content = str_replace('</body>', $toolbar . '</body>', $content);
 
 echo $content;

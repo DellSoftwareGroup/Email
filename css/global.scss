@@ -19,13 +19,13 @@ body {
   padding: 0;
 }
 
-.ExternalClass {
+/*.ExternalClass {
   width: 100%;
   line-height: 100%;
   p, span, font, td, div {
     line-height: 100%;
   }
-}
+}*/
 
 img {
   outline: none;
@@ -114,12 +114,6 @@ table {
     margin: 0 auto;
     .text-pad {
       padding-left: 10px;
-      padding-right: 10px;
-    }
-    .left-text-pad {
-      padding-left: 10px;
-    }
-    .right-text-pad {
       padding-right: 10px;
     }
   }
@@ -329,22 +323,22 @@ table {
     padding-right: 10px;
   }
   &.columns {
-    .left-text-pad, .text-pad-left {
+    .text-pad-left {
       padding-left: 10px;
     }
   }
   &.column {
-    .left-text-pad, .text-pad-left {
+    .text-pad-left {
       padding-left: 10px;
     }
   }
   &.columns {
-    .right-text-pad, .text-pad-right {
+    .text-pad-right {
       padding-right: 10px;
     }
   }
   &.column {
-    .right-text-pad, .text-pad-right {
+    .text-pad-right {
       padding-right: 10px;
     }
   }
@@ -399,8 +393,10 @@ img.center {
   float: none;
 }
 
-.show-for-small, .hide-for-desktop {
+.show-for-small {
   display: none;
+  max-height: 0;
+	overflow: hidden;
 }
 
 /* Typography */
@@ -637,11 +633,6 @@ body.outlook p {
       padding-left: 0px !important;
       display: block !important;
     }
-    .wrapper.first {
-      .columns, .column {
-        display: table !important;
-      }
-    }
     table {
       &.columns td, &.column td {
         width: 100% !important;
@@ -691,16 +682,18 @@ body.outlook p {
     table.columns td.expander {
       width: 1px !important;
     }
-    .right-text-pad, .text-pad-right {
+    .text-pad-right {
       padding-left: 10px !important;
     }
-    .left-text-pad, .text-pad-left {
+    .text-pad-left {
       padding-right: 10px !important;
     }
-    .hide-for-small, .show-for-desktop {
+    .hide-for-small {
       display: none !important;
+      max-height: auto !important;
+			overflow: inherit !important;
     }
-    .show-for-small, .hide-for-desktop {
+    .show-for-small {
       display: inherit !important;
     }
   }
