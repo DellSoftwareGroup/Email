@@ -541,6 +541,12 @@ a.text-underline {
 .inline-block {
   display: inline-block; }
 
+td.no-hyphens {
+  word-break: normal !important;
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  hyphens: none !important; }
+
 .p-0 {
   padding: 0 !important; }
 
