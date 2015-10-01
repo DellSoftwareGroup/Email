@@ -530,11 +530,11 @@ body.outlook p {
   table[class="body"] .text-pad-left {
     padding-right: 10px !important; }
   table[class="body"] .hide-for-small {
-    display: none !important;
-    max-height: auto !important;
-    overflow: inherit !important; }
+    display: none !important; }
   table[class="body"] .show-for-small {
-    display: inherit !important; } }
+    display: inherit !important;
+    max-height: unset !important;
+    overflow: inherit !important; } }
 a.text-underline {
   text-decoration: underline; }
 

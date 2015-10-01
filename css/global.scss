@@ -690,11 +690,11 @@ body.outlook p {
     }
     .hide-for-small {
       display: none !important;
-      max-height: auto !important;
-			overflow: inherit !important;
     }
     .show-for-small {
       display: inherit !important;
+      max-height: unset !important;
+      overflow: inherit !important;
     }
   }
 }
