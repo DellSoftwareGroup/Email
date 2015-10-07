@@ -982,6 +982,7 @@ table.button.button-underline a, table.button.button-underline a:visited {
   text-decoration: underline; }
 table.button td {
   padding: 3px 15px;
+  /* NOTE: Need to add !important when using this on O2 */
   color: #ffffff; }
   table.button td a, table.button td a:visited {
     font-size: 19px;

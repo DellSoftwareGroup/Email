@@ -10,7 +10,7 @@ table {
       }
     }
     td {
-      padding: 3px 15px;
+      padding: 3px 15px; /* NOTE: Need to add !important when using this on O2 */
       color: #ffffff;
       a, a:visited {
         font-size: 19px;
