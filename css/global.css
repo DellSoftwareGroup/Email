@@ -793,6 +793,8 @@ td.no-hyphens {
   color: #ffffff; }
   .text-white > span {
     color: #ffffff; }
+  .text-white > p {
+    color: #ffffff; }
 
 .text-blue {
   color: #007db8; }
