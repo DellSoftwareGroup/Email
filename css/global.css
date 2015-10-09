@@ -1096,6 +1096,9 @@ table.button-dark-gray:hover td {
 .img-responsive {
   width: 100% !important; }
 
+img.heading-icon {
+  width: 80px; }
+
 .mso-table-fix {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt; }
