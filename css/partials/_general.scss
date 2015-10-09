@@ -14,3 +14,11 @@ td.no-hyphens {
 	-moz-hyphens: none !important;
 	hyphens: none !important;
 }
+
+/* Does not work on all email clients. */
+.hidden {
+	display: none;
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}

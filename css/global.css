@@ -547,6 +547,13 @@ td.no-hyphens {
   -moz-hyphens: none !important;
   hyphens: none !important; }
 
+/* Does not work on all email clients. */
+.hidden {
+  display: none;
+  height: 0;
+  width: 0;
+  visibility: hidden; }
+
 .p-0 {
   padding: 0 !important; }
 
@@ -650,6 +657,9 @@ td.no-hyphens {
 
 .mr-0 {
   margin-right: 0 !important; }
+
+.mr-5 {
+  margin-right: 5px !important; }
 
 .mr-10 {
   margin-right: 10px !important; }
