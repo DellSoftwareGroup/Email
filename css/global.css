@@ -621,6 +621,9 @@ td.no-hyphens {
 .mt-10 {
   margin-top: 10px !important; }
 
+.mt-15 {
+  margin-top: 15px !important; }
+
 .mt-20 {
   margin-top: 20px !important; }
 
@@ -650,6 +653,9 @@ td.no-hyphens {
 
 .mr-0 {
   margin-right: 0 !important; }
+
+.mr-5 {
+  margin-right: 5px !important; }
 
 .mr-10 {
   margin-right: 10px !important; }
@@ -917,6 +923,12 @@ h5 {
 .inline-block {
   display: inline-block; }
 
+.valign-middle {
+  vertical-align: middle; }
+
+.valign-super {
+  vertical-align: super; }
+
 @media only screen and (max-width: 600px) {
   .text-size-17 {
     font-size: 19px; }
@@ -1086,6 +1098,13 @@ table.button-dark-gray:hover td {
 .img-responsive {
   width: 100% !important; }
 
+.img-border {
+  border: 1px solid #737373;
+  position: relative; }
+
 .mso-table-fix {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt; }
+
+.border-t-grey {
+  border-top: 1px solid #ccc; }
