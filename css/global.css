@@ -547,6 +547,13 @@ td.no-hyphens {
   -moz-hyphens: none !important;
   hyphens: none !important; }
 
+/* Does not work on all email clients. */
+.hidden {
+  display: none;
+  height: 0;
+  width: 0;
+  visibility: hidden; }
+
 .p-0 {
   padding: 0 !important; }
 
@@ -650,6 +657,9 @@ td.no-hyphens {
 
 .mr-0 {
   margin-right: 0 !important; }
+
+.mr-5 {
+  margin-right: 5px !important; }
 
 .mr-10 {
   margin-right: 10px !important; }
@@ -792,6 +802,8 @@ td.no-hyphens {
 .text-white {
   color: #ffffff; }
   .text-white > span {
+    color: #ffffff; }
+  .text-white > p {
     color: #ffffff; }
 
 .text-blue {
@@ -982,6 +994,7 @@ table.button.button-underline a, table.button.button-underline a:visited {
   text-decoration: underline; }
 table.button td {
   padding: 3px 15px;
+  /* NOTE: Need to add !important when using this on O2 */
   color: #ffffff; }
   table.button td a, table.button td a:visited {
     font-size: 19px;
@@ -1082,6 +1095,9 @@ table.button-dark-gray:hover td {
     white-space: normal !important; } }
 .img-responsive {
   width: 100% !important; }
+
+img.heading-icon {
+  width: 80px; }
 
 .mso-table-fix {
   mso-table-lspace: 0pt;
