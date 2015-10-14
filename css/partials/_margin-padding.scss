@@ -123,6 +123,15 @@
   margin-bottom: 0 !important;
 }
 
+@media only screen and (max-width: 600) {
+  .pb-0-sm {
+   padding-bottom: 0 !important;
+  }
+  .pt-0-sm {
+    padding-top:0 !important;
+  }
+}
+
 @media only screen and (min-width: 601px) {
   .p-0-md {
     padding: 0 !important;

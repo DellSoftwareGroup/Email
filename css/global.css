@@ -541,11 +541,12 @@ a.text-underline {
 .inline-block {
   display: inline-block; }
 
-td.no-hyphens {
-  word-break: normal !important;
-  -webkit-hyphens: none !important;
-  -moz-hyphens: none !important;
-  hyphens: none !important; }
+.no-word-break {
+  word-break: keep-all;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none; }
 
 /* Does not work on all email clients. */
 .hidden {
@@ -677,6 +678,12 @@ td.no-hyphens {
   margin-top: 0 !important;
   margin-bottom: 0 !important; }
 
+@media only screen and (max-width: 600) {
+  .pb-0-sm {
+    padding-bottom: 0 !important; }
+
+  .pt-0-sm {
+    padding-top: 0 !important; } }
 @media only screen and (min-width: 601px) {
   .p-0-md {
     padding: 0 !important; }
