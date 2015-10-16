@@ -1,0 +1,3 @@
+Oasis 2
+- The pre-process that they are using is: https://github.com/milkshakesoftware/PreMailer.Net
+- When copying global.css to be used on O2 (Oasis 2), please check all comments on global.css for "NOTE:"

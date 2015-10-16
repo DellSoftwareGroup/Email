@@ -60,12 +60,13 @@ body {
   margin: 0;
   padding: 0; }
 
-.ExternalClass {
+/*.ExternalClass {
   width: 100%;
-  line-height: 100%; }
-  .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
-    line-height: 100%; }
-
+  line-height: 100%;
+  p, span, font, td, div {
+    line-height: 100%;
+  }
+}*/
 img {
   outline: none;
   text-decoration: none;
@@ -133,10 +134,6 @@ table.columns, table.column {
   margin: 0 auto; }
   table.columns .text-pad, table.column .text-pad {
     padding-left: 10px;
-    padding-right: 10px; }
-  table.columns .left-text-pad, table.column .left-text-pad {
-    padding-left: 10px; }
-  table.columns .right-text-pad, table.column .right-text-pad {
     padding-right: 10px; }
 table.columns td, table.column td {
   padding: 0px 0px 10px; }
@@ -272,13 +269,13 @@ td.expander {
 table.columns .text-pad, table.column .text-pad {
   padding-left: 10px;
   padding-right: 10px; }
-table.columns .left-text-pad, table.columns .text-pad-left {
+table.columns .text-pad-left {
   padding-left: 10px; }
-table.column .left-text-pad, table.column .text-pad-left {
+table.column .text-pad-left {
   padding-left: 10px; }
-table.columns .right-text-pad, table.columns .text-pad-right {
+table.columns .text-pad-right {
   padding-right: 10px; }
-table.column .right-text-pad, table.column .text-pad-right {
+table.column .text-pad-right {
   padding-right: 10px; }
 
 /* Block Grid */
@@ -323,8 +320,10 @@ img.center {
   margin: 0 auto;
   float: none; }
 
-.show-for-small, .hide-for-desktop {
-  display: none; }
+.show-for-small {
+  display: none;
+  max-height: 0;
+  overflow: hidden; }
 
 /* Typography */
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {
@@ -496,8 +495,6 @@ body.outlook p {
     padding-right: 0px !important;
     padding-left: 0px !important;
     display: block !important; }
-  table[class="body"] .wrapper.first .columns, table[class="body"] .wrapper.first .column {
-    display: table !important; }
   table[class="body"] table.columns td, table[class="body"] table.column td {
     width: 100% !important; }
   table[class="body"] .columns td.one, table[class="body"] .column td.one {
@@ -528,19 +525,27 @@ body.outlook p {
     padding-left: 0 !important; }
   table[class="body"] table.columns td.expander {
     width: 1px !important; }
-  table[class="body"] .right-text-pad, table[class="body"] .text-pad-right {
+  table[class="body"] .text-pad-right {
     padding-left: 10px !important; }
-  table[class="body"] .left-text-pad, table[class="body"] .text-pad-left {
+  table[class="body"] .text-pad-left {
     padding-right: 10px !important; }
-  table[class="body"] .hide-for-small, table[class="body"] .show-for-desktop {
+  table[class="body"] .hide-for-small {
     display: none !important; }
-  table[class="body"] .show-for-small, table[class="body"] .hide-for-desktop {
-    display: inherit !important; } }
+  table[class="body"] .show-for-small {
+    display: inherit !important;
+    max-height: unset !important;
+    overflow: inherit !important; } }
 a.text-underline {
   text-decoration: underline; }
 
 .inline-block {
   display: inline-block; }
+
+td.no-hyphens {
+  word-break: normal !important;
+  -webkit-hyphens: none !important;
+  -moz-hyphens: none !important;
+  hyphens: none !important; }
 
 .p-0 {
   padding: 0 !important; }
@@ -616,6 +621,9 @@ a.text-underline {
 .mt-10 {
   margin-top: 10px !important; }
 
+.mt-15 {
+  margin-top: 15px !important; }
+
 .mt-20 {
   margin-top: 20px !important; }
 
@@ -645,6 +653,9 @@ a.text-underline {
 
 .mr-0 {
   margin-right: 0 !important; }
+
+.mr-5 {
+  margin-right: 5px !important; }
 
 .mr-10 {
   margin-right: 10px !important; }
@@ -788,6 +799,8 @@ a.text-underline {
   color: #ffffff; }
   .text-white > span {
     color: #ffffff; }
+  .text-white > p {
+    color: #ffffff; }
 
 .text-blue {
   color: #007db8; }
@@ -910,6 +923,12 @@ h5 {
 .inline-block {
   display: inline-block; }
 
+.valign-middle {
+  vertical-align: middle; }
+
+.valign-super {
+  vertical-align: super; }
+
 @media only screen and (max-width: 600px) {
   .text-size-17 {
     font-size: 19px; }
@@ -977,6 +996,7 @@ table.button.button-underline a, table.button.button-underline a:visited {
   text-decoration: underline; }
 table.button td {
   padding: 3px 15px;
+  /* NOTE: Need to add !important when using this on O2 */
   color: #ffffff; }
   table.button td a, table.button td a:visited {
     font-size: 19px;
@@ -1078,6 +1098,13 @@ table.button-dark-gray:hover td {
 .img-responsive {
   width: 100% !important; }
 
+.img-border {
+  border: 1px solid #737373;
+  position: relative; }
+
 .mso-table-fix {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt; }
+
+.border-t-grey {
+  border-top: 1px solid #ccc; }

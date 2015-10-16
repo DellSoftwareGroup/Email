@@ -13,9 +13,10 @@ if (isset($_GET['download'])) {
 	header("Content-Transfer-Encoding: Ascii");
 	header("Content-disposition: attachment; filename=\"{$info['basename']}\"");
 }
-else {
+else if(!isset($_GET['noTools'])) {
 	$toolbar = <<<END
-<div style="position: fixed; bottom: 0; right: 0; border: 1px solid #444; padding: 5px; background-color: #c0c0c0;">
+<div id="toolbar" style="position: fixed; bottom: 0; right: 0; border: 1px solid #444; padding: 5px; background-color: #c0c0c0;">
+	<div>- <a href="javascript;" onclick="document.getElementById('toolbar').remove(); return false;">Hide Toolbar</a></div>
 	<div>- <a href="?download">Download File</a></div>
 END;
 
@@ -32,6 +33,6 @@ END;
 
 $content = $widget->content();
 
-$content = str_replace('</body>', $toolbar, $content);
+$content = str_replace('</body>', $toolbar . '</body>', $content);
 
 echo $content;

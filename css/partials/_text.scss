@@ -3,6 +3,9 @@
   > span {
     color: #ffffff;
   }
+  > p {
+    color: #ffffff;
+  }
 }
 .text-blue {
   color: #007db8;
@@ -163,7 +166,12 @@ h5 {
 .inline-block {
   display: inline-block;
 }
-
+.valign-middle{
+  vertical-align: middle;
+}
+.valign-super{
+  vertical-align: super;
+}
 @media only screen and (max-width: 600px) {
   .text-size-17 {
     font-size: 19px;
