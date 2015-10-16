@@ -5,3 +5,13 @@
   border: 1px solid #737373;
   position: relative;
 }
+
+@media only screen and (max-width: 600px) {
+	.img-center-sm {
+		text-align: center !important;
+		img {
+			float: none !important;
+			display: inline !important;
+		}
+	}
+}

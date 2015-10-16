@@ -14,3 +14,14 @@ td.no-hyphens {
 	-moz-hyphens: none !important;
 	hyphens: none !important;
 }
+
+.clearfix {
+	&:before,
+	&:after {
+		content: " "; // 1
+		display: table; // 2
+	}
+	&:after {
+		clear: both;
+	}
+}

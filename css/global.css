@@ -547,6 +547,12 @@ td.no-hyphens {
   -moz-hyphens: none !important;
   hyphens: none !important; }
 
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+.clearfix:after {
+  clear: both; }
+
 .p-0 {
   padding: 0 !important; }
 
@@ -1102,6 +1108,12 @@ table.button-dark-gray:hover td {
   border: 1px solid #737373;
   position: relative; }
 
+@media only screen and (max-width: 600px) {
+  .img-center-sm {
+    text-align: center !important; }
+    .img-center-sm img {
+      float: none !important;
+      display: inline !important; } }
 .mso-table-fix {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt; }
