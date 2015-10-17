@@ -690,6 +690,9 @@ body.outlook p {
     }
     .hide-for-small {
       display: none !important;
+      height: 0;
+      width: 0;
+      visibility: hidden;
     }
     .show-for-small {
       display: inherit !important;
