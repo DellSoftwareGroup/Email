@@ -551,6 +551,9 @@ a.text-underline {
   -webkit-hyphens: none;
   hyphens: none; }
 
+.pull-right {
+  float: right !important; }
+
 /* Does not work on all email clients. */
 .hidden {
   display: none;

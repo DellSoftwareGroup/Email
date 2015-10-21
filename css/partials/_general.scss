@@ -9,28 +9,32 @@ a {
 }
 
 .no-word-break {
-	word-break:keep-all;
-	-moz-hyphens:none;
-	-ms-hyphens:none;
-	-webkit-hyphens: none;
-	hyphens:none;
+  word-break: keep-all;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+.pull-right {
+  float: right !important;
 }
 
 /* Does not work on all email clients. */
 .hidden {
-	display: none;
-	height: 0;
-	width: 0;
-	visibility: hidden;
+  display: none;
+  height: 0;
+  width: 0;
+  visibility: hidden;
 }
 
 .clearfix {
-	&:before,
-	&:after {
-		content: " "; // 1
-		display: table; // 2
-	}
-	&:after {
-		clear: both;
-	}
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
 }
