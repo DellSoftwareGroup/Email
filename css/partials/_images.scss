@@ -1,8 +1,9 @@
 .img-responsive {
-	width: 100% !important;
+  width: 100% !important;
 }
+
 img.heading-icon {
-  width:80px;
+  width: 80px;
 }
 
 .img-border {
@@ -10,12 +11,20 @@ img.heading-icon {
   position: relative;
 }
 
+.img-crop {
+  overflow: hidden;
+  height: 118px;
+}
+
 @media only screen and (max-width: 600px) {
-	.img-center-sm {
-		text-align: center !important;
-		img {
-			float: none !important;
-			display: inline !important;
-		}
-	}
+  .img-center-sm {
+    text-align: center !important;
+    img {
+      float: none !important;
+      display: inline !important;
+    }
+  }
+  .img-crop {
+    height: 154px;
+  }
 }
