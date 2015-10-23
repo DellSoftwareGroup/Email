@@ -1,0 +1,23 @@
+- Conditional statements for outlook
+<!--[if gte mso 9]>
+<![endif]-->
+
+<!--[if !mso]><!-->
+<!--<![endif]-->
+----------------------------------------------------------------------------------
+- Create space vertically/horizontally for outlook
+Horizontal
+<tr>
+  <!--depending on how many columns we have we add/remove td-->
+  <td><img src="http://software.dell.com/images/email/blank.gif" width="10"></td>
+  <td><img src="http://software.dell.com/images/email/blank.gif" width="10"></td>
+</tr>
+
+vertical (width varies)
+<img src="http://software.dell.com/images/email/blank.gif" width="5">
+----------------------------------------------------------------------------------
+- Use ascii codes for special characters
+-
+
+
+

@@ -22,6 +22,12 @@ a {
 .width-auto{
   width:auto !important;
 }
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+}
 
 /* Does not work on all email clients. */
 .hidden {

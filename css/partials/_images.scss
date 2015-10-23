@@ -14,6 +14,15 @@ img.heading-icon {
 .img-crop {
   overflow: hidden;
   height: 118px;
+  img{
+    height: 118px;
+  }
+}
+.img-cover{
+  width:202px;
+  height:118px;
+  background-size: cover;
+  border: 1px solid #737373;
 }
 
 @media only screen and (max-width: 600px) {
@@ -25,6 +34,16 @@ img.heading-icon {
     }
   }
   .img-crop {
-    height: 154px;
+    height: 154px !important;
+    img{
+      height: 154px;
+    }
+  }
+
+  .img-cover{
+    width:262px !important;
+    height:154px !important;
+    background-size: cover;
+    border: 1px solid #737373;
   }
 }
