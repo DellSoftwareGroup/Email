@@ -13,6 +13,11 @@ Horizontal
   <td><img src="http://software.dell.com/images/email/blank.gif" width="10"></td>
 </tr>
 
+<!--[if gte mso 9]>
+  <img src="http://software.dell.com/images/email/blank.gif" width="10">
+<![endif]-->
+
+
 vertical (width varies)
 <img src="http://software.dell.com/images/email/blank.gif" width="5">
 ----------------------------------------------------------------------------------
