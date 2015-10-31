@@ -554,9 +554,6 @@ a.text-underline {
 .pull-right {
   float: right !important; }
 
-.width-auto {
-  width: auto !important; }
-
 .center-block {
   display: block;
   margin-left: auto;
