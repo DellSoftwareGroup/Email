@@ -551,6 +551,15 @@ a.text-underline {
   -webkit-hyphens: none;
   hyphens: none; }
 
+.pull-right {
+  float: right !important; }
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: none; }
+
 /* Does not work on all email clients. */
 .hidden {
   display: none;
