@@ -531,6 +531,9 @@ body.outlook p {
     display: inherit !important;
     max-height: unset !important;
     overflow: inherit !important; } }
+table.width-auto {
+  width: auto; }
+
 a.text-underline {
   text-decoration: underline; }
 
