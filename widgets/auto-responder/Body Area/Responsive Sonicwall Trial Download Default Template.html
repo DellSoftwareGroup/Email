@@ -221,67 +221,210 @@
         </td>
     </tr>
 </table>
-<!--Social media-->
-<table class="body">
-    <tr>
-        <td class="center" align="center" valign="top">
-            <center>
 
-                <table class="container">
+<!--Headline-->
+<table class="container">
+    <tr>
+        <td>
+            <table class="row">
+                <tr>
+                    <td class="wrapper last">
+                        <table class="twelve columns">
+                            <tr>
+                                <td class="text-pad pt-10">
+                                    <h1>$$title$$</h1>
+
+                                    <div class="pt-10">
+                                        $$content$$
+                                    </div>
+                                </td>
+                                <td class="expander"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<!--Document ,description-->
+<table class="container">
+    <tr>
+        <td>
+            <!-- Only visible on desktop -->
+            <div class="hide-for-small">
+                <table class="row">
                     <tr>
-                        <td>
-                            <table class="row text-size-13 mt-20 mb-15">
+                        <td class="wrapper valign-middle">
+                            <table class="six columns">
                                 <tr>
-                                    <td class="wrapper last valign-middle">
-                                        <table class="twelve columns">
+                                    <td class="three sub-columns"></td>
+                                    <td class="nine sub-columns">
+
+                                        <table class="button button-blue button-width-auto mt-0 mb-0">
                                             <tr>
-                                                <td class="center">
-                                                    <span class="mr-20 valign-super">$$LabelShareThispage$$</span>
-                                                    <!--[if gte mso 9]>
-                                                    <img src="http://software.dell.com/images/email/blank.gif" width="20">
-                                                    <![endif]-->
-                                                    <a href="https://plus.google.com/+DellSoftware/posts" class="inline-block mr-20">
-                                                        <img src="http://software.dell.com/images/email/icon-google.png" alt="google"/>
-                                                    </a>
-                                                    <!--[if gte mso 9]>
-                                                    <img src="http://software.dell.com/images/email/blank.gif" width="20">
-                                                    <![endif]-->
-                                                    <a href="https://twitter.com/DellSoftware" class="inline-block mr-20">
-                                                        <img src="http://software.dell.com/images/email/icon-twitter.png" alt="twitter"/>
-                                                    </a>
-                                                    <!--[if gte mso 9]>
-                                                    <img src="http://software.dell.com/images/email/blank.gif" width="20">
-                                                    <![endif]-->
-                                                    <a href="https://www.linkedin.com/company/dell-software?trk=biz-brand-tree-co-logo"
-                                                       class="inline-block mr-20">
-                                                        <img src="http://software.dell.com/images/email/icon-linkedin.png" alt="linkedin"/>
-                                                    </a>
-                                                    <!--[if gte mso 9]>
-                                                    <img src="http://software.dell.com/images/email/blank.gif" width="20">
-                                                    <![endif]-->
-                                                    <a href="https://www.facebook.com/dellsoftware" class="inline-block">
-                                                        <img src="http://software.dell.com/images/email/icon-facebook.png" alt="facebook"/>
+                                                <td>
+                                                    <a href="$$CTA_URL$$"><span>$$CTA_Text$$</span></a>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+
+                                    </td>
+                                    <td class="expander"></td>
+                                </tr>
+                                <tr>
+                                    <td class="three sub-columns"></td>
+                                    <td class="nine sub-columns">
+
+                                    </td>
+                                    <td class="expander"></td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td class="wrapper last pt-0">
+                            <table class="six columns">
+                                <tr>
+                                    <td class="nine sub-columns">
+                                        <a href="$$CTA_URL$$">
+                                            <img alt="$$Image_AltText$$"
+                                                 src="$$Image_Path$$"
+                                                 class="img-responsive img-border">
+                                        </a>
+                                    </td>
+                                    <td class="three sub-columns"></td>
+                                    <td class="expander"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- Hides for Microsoft Outlook-->
+            <!--[if !mso]><!-->
+            <!-- Only visible for mobile -->
+            <div class="show-for-small">
+                <table class="row">
+                    <tr>
+                        <td class="wrapper last">
+                            <table class="twelve columns">
+                                <tr>
+                                    <td>
+
+                                        <table class="button button-blue button-width-auto mt-0 mb-0">
+                                            <tr>
+                                                <td>
+                                                    <a href="$$CTA_URL$$">
+															<span>
+																$$CTA_Text$$
+															 </span>
                                                     </a>
                                                 </td>
-                                                <td class="expander"></td>
                                             </tr>
                                         </table>
 
                                     </td>
+                                    <td class="expander"></td>
+                                </tr>
+                                <tr>
+                                    <td class="center">
+                                        <center>
+                                        </center>
+                                    </td>
+                                    <td class="expander"></td>
                                 </tr>
                             </table>
-
+                        </td>
+                        <td class="expander"></td>
+                    </tr>
+                </table>
+                <table class="row">
+                    <tr>
+                        <td class="wrapper last">
+                            <table class="twelve columns">
+                                <tr>
+                                    <td class="center">
+                                        <center>
+                                            <a href="$$Image_URL$$" class="img-center-sm">
+                                                <img alt="$$Image_AltText$$"
+                                                     src="$$Image_Path$$"
+                                                     class="img-border center">
+                                            </a>
+                                        </center>
+                                    </td>
+                                    <td class="expander"></td>
+                                </tr>
+                            </table>
                         </td>
                     </tr>
                 </table>
+            </div>
+            <!--<![endif]-->
 
-            </center>
         </td>
     </tr>
+</table>
+
+<!--Social media-->
+<table class="container">
+    <tr>
+        <td>
+            <table class="row text-size-13 mt-20 mb-15">
+                <tr>
+                    <td class="wrapper last valign-middle">
+                        <table class="twelve columns">
+                            <tr>
+                                <td class="center">
+                                    <span class="mr-20 valign-super">$$LabelShareThisPage$$</span>
+                                    <!--[if gte mso 9]>
+                                    <img src="http://software.dell.com/images/email/blank.gif" width="10">
+                                    <![endif]-->
+                                    <a href="https://plus.google.com/+DellSoftware/posts" class="inline-block mr-10">
+                                        <img src="http://software.dell.com/images/email/icon-google.png" alt="google"/>
+                                    </a>
+                                    <!--[if gte mso 9]>
+                                    <img src="http://software.dell.com/images/email/blank.gif" width="10">
+                                    <![endif]-->
+                                    <a href="https://twitter.com/DellSoftware" class="inline-block mr-10">
+                                        <img src="http://software.dell.com/images/email/icon-twitter.png" alt="twitter"/>
+                                    </a>
+                                    <!--[if gte mso 9]>
+                                    <img src="http://software.dell.com/images/email/blank.gif" width="10">
+                                    <![endif]-->
+                                    <a href="https://www.linkedin.com/company/dell-software?trk=biz-brand-tree-co-logo"
+                                       class="inline-block mr-10">
+                                        <img src="http://software.dell.com/images/email/icon-linkedin.png" alt="linkedin"/>
+                                    </a>
+                                    <!--[if gte mso 9]>
+                                    <img src="http://software.dell.com/images/email/blank.gif" width="10">
+                                    <![endif]-->
+                                    <a href="https://www.facebook.com/dellsoftware" class="inline-block">
+                                        <img src="http://software.dell.com/images/email/icon-facebook.png" alt="facebook"/>
+                                    </a>
+                                </td>
+                                <td class="expander"></td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+        </td>
+    </tr>
+
     <!--[if gte mso 9]>
     <tr>
         <td><img src="http://software.dell.com/images/email/blank.gif" height="10"></td>
         <td><img src="http://software.dell.com/images/email/blank.gif" height="10"></td>
     </tr>
     <![endif]-->
+
 </table>
+
+
+
+
+
