@@ -21,3 +21,6 @@ Microsoft Specifics:
 References:
 - http://templates.mailchimp.com/development/css/outlook-conditional-css/
 - http://stackoverflow.com/questions/16861336/outlook-2007-to-2013-displaying-device-media-queries
+
+Gmail App & Gmail.com
+- Do not support media queries
