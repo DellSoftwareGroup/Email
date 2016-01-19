@@ -26,3 +26,6 @@ Gmail App & Gmail.com
 - Do not support media queries
 	- References:
 		- https://litmus.com/community/code/543-mailbox-app-and-gmail-app-media-query-support
+
+Media Queries:
+- https://litmus.com/help/email-clients/media-query-support/
