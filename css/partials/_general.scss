@@ -22,6 +22,14 @@ a {
   hyphens: none;
 }
 
+.no-wrap {
+	white-space: nowrap;
+}
+
+.text-right {
+	text-align: right;
+}
+
 .pull-right {
   float: right !important;
 }
@@ -31,6 +39,13 @@ a {
   margin-left: auto;
   margin-right: auto;
   float: none;
+}
+
+table {
+	&.max-width {
+		width: 100%;
+		table-layout: fixed;
+	}
 }
 
 /* Does not work on all email clients. */
