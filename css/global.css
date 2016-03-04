@@ -466,7 +466,7 @@ table.round td {
 body.outlook p {
   display: inline !important; }
 
-/*  Media Queries */
+/*  Media Queries: Mobile */
 @media only screen and (max-width: 600px) {
   table[class="body"] img {
     width: auto !important;
@@ -578,6 +578,10 @@ table.max-width {
   display: table; }
 .clearfix:after {
   clear: both; }
+
+td.p-0 {
+  padding: 0 !important;
+}
 
 .p-0 {
   padding: 0 !important; }
@@ -1139,11 +1143,17 @@ table.button-dark-gray:hover td {
     display: table !important; }
   table.button td a, table.button td a:visited {
     white-space: normal !important; } }
-.img-responsive {
-  width: 100% !important; }
 
+/*.img-responsive {
+  width: 100% !important;
+}*/
 img.heading-icon {
   width: 80px; }
+
+img.inline-block {
+  clear: none;
+  float: none;
+}
 
 .img-border {
   border: 1px solid #737373;

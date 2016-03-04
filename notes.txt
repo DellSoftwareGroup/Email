@@ -28,6 +28,9 @@ Gmail App & Gmail.com
 - Do not support media queries
 	- References:
 		- https://litmus.com/community/code/543-mailbox-app-and-gmail-app-media-query-support
+- No responsive email for android
+	- References:
+		- https://litmus.com/community/discussions/764-google-just-killed-responsive-emails-on-android
 
 Media Queries:
 - https://litmus.com/help/email-clients/media-query-support/

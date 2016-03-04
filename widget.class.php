@@ -11,15 +11,15 @@ class Widget
 
         $this->parseSubWidget();
 
-        if (preg_match_all('/\<link(.*?)href="(.*?)"\>/', $this->html, $m)) {
-            foreach ($m[2] as $indx => $link) {
-                if (substr($link, 0, 1) == '/') {
-                    $link = 'http://' . $_SERVER['HTTP_HOST'] . $link;
-                }
+        if (!isset($_GET['no-process'])) {
+            if (preg_match_all('/\<link(.*?)href="(.*?)"\>/', $this->html, $m)) {
+                foreach ($m[2] as $indx => $link) {
+                    if (substr($link, 0, 1) == '/') {
+                        $link = 'http://' . $_SERVER['HTTP_HOST'] . $link;
+                    }
 
-                $this->html = str_replace($m[0][$indx], "<style type=\"text/css\">\n" . file_get_contents($link) . "\n</style>\n", $this->html);
-                //$this->html = str_replace($m[0][$indx], '', $this->html);
-                //$this->css .= file_get_contents($link);
+                    $this->html = str_replace($m[0][$indx], "<style type=\"text/css\">\n" . file_get_contents($link) . "\n</style>\n", $this->html);
+                }
             }
         }
     }
