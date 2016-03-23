@@ -135,9 +135,9 @@ td {
   margin-bottom: 0 !important;
 }
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
   .pb-0-sm {
-   padding-bottom: 0 !important;
+		padding-bottom: 0 !important;
   }
   .pt-0-sm {
     padding-top:0 !important;

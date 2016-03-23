@@ -571,7 +571,10 @@ table.max-width {
   display: none;
   height: 0;
   width: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+}
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -712,7 +715,7 @@ td.p-0 {
   margin-top: 0 !important;
   margin-bottom: 0 !important; }
 
-@media only screen and (max-width: 600) {
+@media only screen and (max-width: 600px) {
   .pb-0-sm {
     padding-bottom: 0 !important; }
 
@@ -959,6 +962,22 @@ td.p-0 {
   .text-size-12 span {
     font-size: 12px; }
 
+.text-size-10 {
+  font-size: 10px;
+}
+
+.text-size-10 td {
+  font-size: 10px;
+}
+
+.text-size-10 p {
+  font-size: 10px;
+}
+
+.text-size-10 span {
+  font-size: 10px;
+}
+
 h1 {
   font-size: 27px; }
 
@@ -1143,13 +1162,11 @@ table.button-dark-gray:hover td {
     display: table !important; }
   table.button td a, table.button td a:visited {
     white-space: normal !important; } }
-
 /*.img-responsive {
   width: 100% !important;
 }*/
 img.heading-icon {
   width: 80px; }
-
 img.inline-block {
   clear: none;
   float: none;

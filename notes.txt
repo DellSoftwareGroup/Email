@@ -34,3 +34,6 @@ Gmail App & Gmail.com
 
 Media Queries:
 - https://litmus.com/help/email-clients/media-query-support/
+
+Pre-Header Text:
+- https://www.campaignmonitor.com/blog/email-marketing/2015/08/improve-email-open-rates-with-preheader-text/

@@ -54,6 +54,8 @@ table {
   height: 0;
   width: 0;
   visibility: hidden;
+	max-height: 0;
+	overflow: hidden;
 }
 
 .clearfix {
