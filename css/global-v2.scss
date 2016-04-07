@@ -179,7 +179,7 @@ table {
 			padding-right: 10px;
 		}
 	}
-	&.columns td, &.column td {
+	&.columns > tbody > tr > td, &.column > tbody > tr > td, &.columns > tr > td, &.column > tr > td {
 		padding: 0px 0px 10px;
 	}
 	&.columns td.sub-columns, &.column td.sub-columns, &.columns td.sub-column, &.column td.sub-column {

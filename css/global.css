@@ -65,10 +65,14 @@ img {
   text-decoration: none;
   -ms-interpolation-mode: bicubic;
   width: auto;
-  max-width: 100%;
+  /*max-width: 100%;*/
   float: left;
   clear: both;
   display: block; }
+
+img:not(.no-max-width) {
+  max-width: 100%;
+}
 
 center {
   width: 100%;
@@ -588,6 +592,10 @@ td.p-0 {
 
 .p-0 {
   padding: 0 !important; }
+
+.p-10 {
+  padding: 10px !important;
+}
 
 .p-15 {
   padding: 15px !important; }
