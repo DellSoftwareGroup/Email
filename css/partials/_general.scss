@@ -30,8 +30,22 @@ a {
 	text-align: right;
 }
 
+.pull-left {
+	float: left;
+}
+
 .pull-right {
-  float: right !important;
+	float: right;
+}
+
+@media only screen and (max-width: 600px) {
+	.pull-left-sm {
+		float: left !important;
+	}
+
+	.pull-right-sm {
+		float: right !important;
+	}
 }
 
 .center-block{

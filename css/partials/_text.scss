@@ -211,6 +211,10 @@ h5 {
 	vertical-align: super;
 }
 
+.text-right {
+	text-align: right;
+}
+
 @media only screen and (max-width: 600px) {
 	.text-size-17 {
 		font-size: 19px;
@@ -296,5 +300,9 @@ h5 {
 	}
 	h5 {
 		font-size: 17px;
+	}
+
+	.text-left-sm {
+		text-align: left !important;
 	}
 }
