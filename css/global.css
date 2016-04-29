@@ -1092,7 +1092,6 @@ h5 {
     text-align: left !important;
   }
 }
-
 table.button {
   overflow: visible;
 }
@@ -1200,17 +1199,12 @@ table.button-dark-gray td {
 table.button-dark-gray:hover td {
   background: #333333 !important;
   border: 1px solid #333333; }
-
 table.button-wrapper {
   margin-top: 20px;
 }
 
 table.button-wrapper .button {
   margin: 0;
-}
-
-.text-size-13 table.button td {
-  padding-bottom: 7px;
 }
 
 .text-size-13 table.button td a, .text-size-13 table.button td a:visited {
