@@ -14,12 +14,14 @@ table {
     td {
 			padding: 5px 15px; /* NOTE: Need to add !important when using this on O2 */
       color: #ffffff;
+			white-space: nowrap; /* Prevent button from wrapping */
       a, a:visited {
         font-size: 19px;
 				line-height: 1em;
         color: #ffffff;
         > span {
           color: #ffffff;
+					white-space: nowrap; /* Prevent button from wrapping */
         }
       }
     }

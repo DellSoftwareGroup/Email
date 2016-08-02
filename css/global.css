@@ -71,7 +71,7 @@ img {
   display: block; }
 
 img:not(.no-max-width) {
-  max-width: 100%;
+	max-width: 100%;
 }
 
 center {
@@ -558,20 +558,20 @@ a.text-underline {
   text-align: right; }
 
 .pull-left {
-  float: left;
+	float: left;
 }
 
 .pull-right {
-  float: right;
+	float: right;
 }
 
 @media only screen and (max-width: 600px) {
   .pull-left-sm {
-    float: left !important;
+	  float: left !important;
   }
 
   .pull-right-sm {
-    float: right !important;
+	  float: right !important;
   }
 }
 .center-block {
@@ -592,6 +592,7 @@ table.max-width {
   visibility: hidden;
   max-height: 0;
   overflow: hidden;
+	color: #ffffff;
 }
 
 .clearfix:before, .clearfix:after {
@@ -601,14 +602,14 @@ table.max-width {
   clear: both; }
 
 td.p-0 {
-  padding: 0 !important;
+	padding: 0 !important;
 }
 
 .p-0 {
   padding: 0 !important; }
 
 .p-10 {
-  padding: 10px !important;
+	padding: 10px !important;
 }
 
 .p-15 {
@@ -627,7 +628,7 @@ td.p-0 {
   padding-top: 10px !important; }
 
 .pt-15 {
-  padding-top: 15px !important;
+	padding-top: 15px !important;
 }
 
 .pt-20 {
@@ -989,19 +990,19 @@ td.p-0 {
     font-size: 12px; }
 
 .text-size-10 {
-  font-size: 10px;
+	font-size: 10px;
 }
 
 .text-size-10 td {
-  font-size: 10px;
+	font-size: 10px;
 }
 
 .text-size-10 p {
-  font-size: 10px;
+	font-size: 10px;
 }
 
 .text-size-10 span {
-  font-size: 10px;
+	font-size: 10px;
 }
 
 h1 {
@@ -1023,7 +1024,7 @@ h5 {
   vertical-align: super; }
 
 .text-right {
-  text-align: right;
+	text-align: right;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1085,53 +1086,58 @@ h5 {
     font-size: 29px; }
 
   h5 {
-    font-size: 17px;
+	  font-size: 17px;
   }
 
   .text-left-sm {
-    text-align: left !important;
+	  text-align: left !important;
   }
 }
 table.button {
-  overflow: visible;
+	overflow: visible;
 }
 
 table.button.button-width-auto {
-  width: auto;
-  display: inline-block;
+	width: auto;
+	display: inline-block;
 }
 
 table.button.button-underline a, table.button.button-underline a:visited {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 table.button td {
-  padding: 5px 15px;
-  /* NOTE: Need to add !important when using this on O2 */
-    color: #ffffff; }
+	padding: 5px 15px;
+	/* NOTE: Need to add !important when using this on O2 */
+	color: #ffffff;
+	white-space: nowrap;
+	/* Prevent button from wrapping */
+}
 
 table.button td a, table.button td a:visited {
-  font-size: 19px;
-  line-height: 1em;
+	font-size: 19px;
+	line-height: 1em;
       color: #ffffff; }
 
 table.button td a > span, table.button td a:visited > span {
-  color: #ffffff;
+	color: #ffffff;
+	white-space: nowrap;
+	/* Prevent button from wrapping */
 }
 
 table.button:hover td {
-  color: #ffffff;
+	color: #ffffff;
 }
 
 table.button:hover td a {
-  color: #ffffff !important;
+	color: #ffffff !important;
 }
 
 table.button td a:visited, table.button:active td a {
     color: #ffffff !important; }
 
 table.button td a:visited > span, table.button:active td a > span {
-  color: #ffffff !important;
+	color: #ffffff !important;
 }
 table.button-blue td {
   background-color: #007db8;
@@ -1200,16 +1206,16 @@ table.button-dark-gray:hover td {
   background: #333333 !important;
   border: 1px solid #333333; }
 table.button-wrapper {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 table.button-wrapper .button {
-  margin: 0;
+	margin: 0;
 }
 
 .text-size-13 table.button td a, .text-size-13 table.button td a:visited {
   font-size: 13px;
-  line-height: 1.3em;
+	line-height: 1.3em;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1222,7 +1228,7 @@ img.heading-icon {
   width: 80px; }
 img.inline-block {
   clear: none;
-  float: none;
+	float: none;
 }
 
 .img-border {
