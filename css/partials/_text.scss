@@ -9,30 +9,30 @@
 }
 
 .text-blue {
-	color: #007db8;
+	color: $color-blue;
 	> span {
-		color: #007db8;
+		color: $color-blue;
 	}
 }
 
 .text-dark-blue {
-	color: #00618F;
+	color: $color-blue;
 	> span {
-		color: #00618F;
+		color: $color-blue;
 	}
 }
 
 .text-light-green {
-	color: #C1D82F;
+	color: $color-light-green;
 	> span {
-		color: #C1D82F;
+		color: $color-light-green;
 	}
 }
 
 .text-green {
-	color: #6EA204;
+	color: $color-green;
 	> span {
-		color: #6EA204;
+		color: $color-green;
 	}
 }
 
@@ -44,44 +44,44 @@
 }
 
 .text-orange {
-	color: #EE6411;
+	color: $color-orange;
 	> span {
-		color: #EE6411;
+		color: $color-orange;
 	}
 }
 
 .text-red {
-	color: #D74324;
+	color: $color-red;
 	> span {
-		color: #D74324;
+		color: $color-red;
 	}
 }
 
 .text-dark-red {
-	color: #C31126;
+	color: $color-dark-red;
 	> span {
-		color: #C31126;
+		color: $color-dark-red;
 	}
 }
 
 .text-berry {
-	color: #B7295A;
+	color: $color-berry;
 	> span {
-		color: #B7295A;
+		color: $color-berry;
 	}
 }
 
 .text-purple {
-	color: #6E2585;
+	color: $color-purple;
 	> span {
-		color: #6E2585;
+		color: $color-purple;
 	}
 }
 
 .text-teal {
-	color: #42AEAF;
+	color: $color-teal;
 	> span {
-		color: #42AEAF;
+		color: $color-teal;
 	}
 }
 

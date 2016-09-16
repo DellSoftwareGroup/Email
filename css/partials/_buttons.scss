@@ -13,139 +13,139 @@ table {
     }
     td {
 			padding: 5px 15px; /* NOTE: Need to add !important when using this on O2 */
-      color: #ffffff;
+      color: $btn-default-text-color;
 			white-space: nowrap; /* Prevent button from wrapping */
       a, a:visited {
         font-size: 19px;
 				line-height: 1em;
-        color: #ffffff;
+        color: $btn-default-text-color;
         > span {
-          color: #ffffff;
+          color: $btn-default-text-color;
 					white-space: nowrap; /* Prevent button from wrapping */
         }
       }
     }
     &:hover td {
-      color: #ffffff;
+      color: $btn-default-text-color;
       a {
-        color: #ffffff !important;
+        color: $btn-default-text-color !important;
       }
     }
     td a:visited, &:active td a {
-      color: #ffffff !important;
+      color: $btn-default-text-color !important;
       > span {
-        color: #ffffff !important;
+        color: $btn-default-text-color !important;
       }
     }
   }
   &.button-blue {
     td {
-      background-color: #007db8;
-      border: 1px solid #007db8;
+      background-color: $btn-blue-bg-color;
+      border: 1px solid $btn-blue-border-color;
     }
     &:hover td {
-      background: #007db8 !important;
-      border: 1px solid #007db8;
+      background: $btn-blue-hover-bg-color !important;
+      border: 1px solid $btn-blue-hover-border-color;
     }
   }
   &.button-dark-blue {
     td {
-      background-color: #00618F;
-      border: 1px solid #00618F;
+      background-color: $btn-dark-blue-bg-color;
+      border: 1px solid $btn-dark-blue-border-color;
     }
     &:hover td {
-      background: #00618F !important;
-      border: 1px solid #00618F;
+      background: $btn-dark-blue-hover-bg-color !important;
+      border: 1px solid $btn-dark-blue-hover-border-color;
     }
   }
   &.button-purple {
     td {
-      background-color: #6e2585;
-      border: 1px solid #6e2585;
+      background-color: $btn-purple-bg-color;
+      border: 1px solid $btn-purple-border-color;
     }
     &:hover td {
-      background: #6e2585 !important;
-      border: 1px solid #6e2585;
+      background: $btn-purple-hover-bg-color !important;
+      border: 1px solid $btn-purple-hover-border-color;
     }
   }
   &.button-orange {
     td {
-      background-color: #ff6633;
-      border: 1px solid #ff6633;
+      background-color: $btn-orange-bg-color;
+      border: 1px solid $btn-orange-border-color;
     }
     &:hover td {
-      background: #ff6633 !important;
-      border: 1px solid #ff6633;
+      background: $btn-orange-hover-bg-color !important;
+      border: 1px solid $btn-orange-hover-border-color;
     }
   }
   &.button-green {
     td {
-      background-color: #6EA204;
-      border: 1px solid #6EA204;
+      background-color: $btn-green-bg-color;
+      border: 1px solid $btn-green-border-color;
     }
     &:hover td {
-      background: #6EA204 !important;
-      border: 1px solid #6EA204;
+      background: $btn-green-hover-bg-color !important;
+      border: 1px solid $btn-green-hover-border-color;
     }
   }
   &.button-light-green {
     td {
-      background-color: #C1D82F;
-      border: 1px solid #C1D82F;
+      background-color: $btn-light-green-bg-color;
+      border: 1px solid $btn-light-green-border-color;
     }
     &:hover td {
-      background: #C1D82F !important;
-      border: 1px solid #C1D82F;
+      background: $btn-light-green-hover-bg-color !important;
+      border: 1px solid $btn-light-green-hover-border-color;
     }
   }
   &.button-red {
     td {
-      background-color: #D74324;
-      border: 1px solid #D74324;
+      background-color: $btn-red-bg-color;
+      border: 1px solid $btn-red-border-color;
     }
     &:hover td {
-      background: #D74324 !important;
-      border: 1px solid #D74324;
+      background: $btn-red-hover-bg-color !important;
+      border: 1px solid $btn-red-hover-border-color;
     }
   }
   &.button-dark-red {
     td {
-      background-color: #C31126;
-      border: 1px solid #C31126;
+      background-color: $btn-dark-red-bg-color;
+      border: 1px solid $btn-dark-red-border-color;
     }
     &:hover td {
-      background: #C31126 !important;
-      border: 1px solid #C31126;
+      background: $btn-dark-red-hover-bg-color !important;
+      border: 1px solid $btn-dark-red-hover-border-color;
     }
   }
   &.button-berry {
     td {
-      background-color: #B7295A;
-      border: 1px solid #B7295A;
+      background-color: $btn-berry-bg-color;
+      border: 1px solid $btn-berry-border-color;
     }
     &:hover td {
-      background: #B7295A !important;
-      border: 1px solid #B7295A;
+      background: $btn-berry-hover-bg-color !important;
+      border: 1px solid $btn-berry-hover-border-color;
     }
   }
   &.button-teal {
     td {
-      background-color: #42AEAF;
-      border: 1px solid #42AEAF;
+      background-color: $btn-teal-bg-color;
+      border: 1px solid $btn-teal-border-color;
     }
     &:hover td {
-      background: #42AEAF !important;
-      border: 1px solid #42AEAF;
+      background: $btn-teal-hover-bg-color !important;
+      border: 1px solid $btn-teal-hover-border-color;
     }
   }
   &.button-dark-gray {
     td {
-      background-color: #333333;
-      border: 1px solid #333333;
+      background-color: $btn-dark-grey-bg-color;
+      border: 1px solid $btn-dark-grey-border-color;
     }
     &:hover td {
-      background: #333333 !important;
-      border: 1px solid #333333;
+      background: $btn-dark-grey-hover-bg-color !important;
+      border: 1px solid $btn-dark-grey-hover-border-color;
     }
   }
 	&.button-wrapper {

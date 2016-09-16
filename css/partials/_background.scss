@@ -1,34 +1,33 @@
-.bg-light-gray {
-  background: #eeeeee;
+.bg-light-gray, .bg-light-grey {
+  background: $color-lighter-grey;
 }
 
 .bg-white {
-  background: #fff;
+  background: $color-white;
 }
 
 .bg-dark-orange {
-  background: #ff6633;
+  background: $color-orange;
 }
 
 .bg-dark-blue {
-  background: #00618F;
+  background: $color-dark-blue;
 }
 
-.bg-dark-gray {
-  background: #333333;
+.bg-dark-gray, .bg-dark-grey {
+  background: $color-dark-grey;
 }
 
-.row-purple {
-  background: #6e2585;
-}
+/*.row-purple {
+  background: $color-purple;
+}*/
 
 .row-blue {
   line-height: 30px;
-  background-color: #007db8;
+  background-color: $color-blue;
 }
 
-
-.row-orange {
+/*.row-orange {
   line-height: 30px;
-  background-color: #ff6633;
-}
+  background-color: $color-orange;
+}*/

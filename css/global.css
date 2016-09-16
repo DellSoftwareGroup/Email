@@ -1,50 +1,12 @@
-@charset "IBM437";
-@font-face {
-  font-family: 'museo-sans-for-dell-100';
-  src: url("http://software.dell.com/fonts/museosansfordell-100-webfont.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/museosansfordell-100-webfont.woff") format("woff"), url("http://software.dell.com/fonts/museosansfordell-100-webfont.ttf") format("truetype"), url("http://software.dell.com/fonts/museosansfordell-100-webfont.svg#MuseoSansForDell100") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'museo-sans-for-dell-300';
-  src: url("http://software.dell.com/fonts/museosansfordell-300-webfont.eot");
-  src: url("http://software.dell.com/fonts/museosansfordell-300-webfont.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/museosansfordell-300-webfont.woff") format("woff"), url("http://software.dell.com/fonts/museosansfordell-300-webfont.ttf") format("truetype"), url("http://software.dell.com/fonts/museosansfordell-300-webfont.svg#MuseoSansForDell300") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'museo-sans-for-dell-700';
-  src: url("http://software.dell.com/fonts/museosansfordell-700-webfont.eot");
-  src: url("http://software.dell.com/fonts/museosansfordell-700-webfont.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/museosansfordell-700-webfont.woff") format("woff"), url("http://software.dell.com/fonts/museosansfordell-700-webfont.ttf") format("truetype"), url("http://software.dell.com/fonts/museosansfordell-700-webfont.svg#MuseoSansForDell700") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'icon-ui';
-  src: url("http://software.dell.com/fonts/icon-ui.eot");
-  src: url("http://software.dell.com/fonts/icon-ui.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/icon-ui.woff") format("woff"), url("http://software.dell.com/fonts/icon-ui.ttf") format("truetype"), url("http://software.dell.com/fonts/icon-ui.svg#icon-ui") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'icon-small';
-  src: url("http://software.dell.com/fonts/icon-small.eot");
-  src: url("http://software.dell.com/fonts/icon-small.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/icon-small.woff") format("woff"), url("http://software.dell.com/fonts/icon-small.ttf") format("truetype"), url("http://software.dell.com/fonts/icon-small.svg#icon-small") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'icon-large';
-  src: url("http://software.dell.com/fonts/icon-large.eot");
-  src: url("http://software.dell.com/fonts/icon-large.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/icon-large.woff") format("woff"), url("http://software.dell.com/fonts/icon-large.ttf") format("truetype"), url("http://software.dell.com/fonts/icon-large.svg#icon-large") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
+@charset "UTF-8";
+/**/
+/*
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("http://software.dell.com/fonts/glyphicons-halflings-regular.eot");
-  src: url("http://software.dell.com/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.woff") format("woff"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
-
+  src: url("https://software.dell.com/fonts/glyphicons-halflings-regular.eot");
+  src: url("https://software.dell.com/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("https://software.dell.com/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("https://software.dell.com/fonts/glyphicons-halflings-regular.woff") format("woff"), url("https://software.dell.com/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("https://software.dell.com/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+}
+*/
 /**********************************************
 * Ink v1.0.5 - Copyright 2013 ZURB Inc        *
 **********************************************/
@@ -71,8 +33,7 @@ img {
   display: block; }
 
 img:not(.no-max-width) {
-	max-width: 100%;
-}
+  max-width: 100%; }
 
 center {
   width: 100%;
@@ -333,11 +294,11 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   line-height: 1.3; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "museo-sans-for-dell-300","Trebuchet MS","Roboto","Segoe UI","Helvetica Neue","Meiryo UI Reg","メイリオ Reg","MS UI Gothic Reg","Hiragino Kaku Gothic Reg","ヒラギノ角ゴ Pro W3 Reg","Microsoft YaHei","微软雅黑","Hiragino Sans GB","Microsoft JhengHei","微軟正黑體","Malgun Gothic",Gulim,Tahoma,"Arial Unicode",sans-serif;
+  font-family: "museo-sans-for-dell-300","Trebuchet MS","Roboto","Segoe UI","Helvetica Neue","Meiryo UI Reg","πâíπéñπâ¬πé¬ Reg","MS UI Gothic Reg","Hiragino Kaku Gothic Reg","πâÆπâ⌐πé«πâÄΦºÆπé┤ Pro W3 Reg","Microsoft YaHei","σ╛«Φ╜»Θ¢àΘ╗æ","Hiragino Sans GB","Microsoft JhengHei","σ╛«Φ╗ƒµ¡úΘ╗æΘ½ö","Malgun Gothic",Gulim,Tahoma,"Arial Unicode",sans-serif;
   word-break: normal; }
 
 h3, h4, h5 {
-  font-family: "Trebuchet MS","Roboto","Segoe UI","Helvetica Neue","Meiryo UI Reg","メイリオ Reg","MS UI Gothic Reg","Hiragino Kaku Gothic Reg","ヒラギノ角ゴ Pro W3 Reg","Microsoft YaHei","微软雅黑","Hiragino Sans GB","Microsoft JhengHei","微軟正黑體","Malgun Gothic",Gulim,Tahoma,"Arial Unicode",sans-serif; }
+  font-family: "Trebuchet MS","Roboto","Segoe UI","Helvetica Neue","Meiryo UI Reg","πâíπéñπâ¬πé¬ Reg","MS UI Gothic Reg","Hiragino Kaku Gothic Reg","πâÆπâ⌐πé«πâÄΦºÆπé┤ Pro W3 Reg","Microsoft YaHei","σ╛«Φ╜»Θ¢àΘ╗æ","Hiragino Sans GB","Microsoft JhengHei","σ╛«Φ╗ƒµ¡úΘ╗æΘ½ö","Malgun Gothic",Gulim,Tahoma,"Arial Unicode",sans-serif; }
 
 h1 {
   font-size: 32px;
@@ -558,22 +519,17 @@ a.text-underline {
   text-align: right; }
 
 .pull-left {
-	float: left;
-}
+  float: left; }
 
 .pull-right {
-	float: right;
-}
+  float: right; }
 
 @media only screen and (max-width: 600px) {
   .pull-left-sm {
-	  float: left !important;
-  }
+    float: left !important; }
 
   .pull-right-sm {
-	  float: right !important;
-  }
-}
+    float: right !important; } }
 .center-block {
   display: block;
   margin-left: auto;
@@ -592,8 +548,7 @@ table.max-width {
   visibility: hidden;
   max-height: 0;
   overflow: hidden;
-	color: #ffffff;
-}
+  color: #ffffff; }
 
 .clearfix:before, .clearfix:after {
   content: " ";
@@ -602,15 +557,13 @@ table.max-width {
   clear: both; }
 
 td.p-0 {
-	padding: 0 !important;
-}
+  padding: 0 !important; }
 
 .p-0 {
   padding: 0 !important; }
 
 .p-10 {
-	padding: 10px !important;
-}
+  padding: 10px !important; }
 
 .p-15 {
   padding: 15px !important; }
@@ -628,8 +581,7 @@ td.p-0 {
   padding-top: 10px !important; }
 
 .pt-15 {
-	padding-top: 15px !important;
-}
+  padding-top: 15px !important; }
 
 .pt-20 {
   padding-top: 20px !important; }
@@ -844,32 +796,32 @@ td.p-0 {
 
   .ml-20-md {
     margin-left: 20px !important; } }
-.bg-light-gray {
+.bg-light-gray, .bg-light-grey {
   background: #eeeeee; }
 
 .bg-white {
-  background: #fff; }
+  background: #ffffff; }
 
 .bg-dark-orange {
-  background: #ff6633; }
+  background: #FB4F14; }
 
 .bg-dark-blue {
-  background: #00618F; }
+  background: #003876; }
 
-.bg-dark-gray {
+.bg-dark-gray, .bg-dark-grey {
   background: #333333; }
 
-.row-purple {
-  background: #6e2585; }
-
+/*.row-purple {
+  background: $color-purple;
+}*/
 .row-blue {
   line-height: 30px;
-  background-color: #007db8; }
+  background-color: #003876; }
 
-.row-orange {
+/*.row-orange {
   line-height: 30px;
-  background-color: #ff6633; }
-
+  background-color: $color-orange;
+}*/
 .text-white {
   color: #ffffff; }
   .text-white > span {
@@ -878,24 +830,24 @@ td.p-0 {
     color: #ffffff; }
 
 .text-blue {
-  color: #007db8; }
+  color: #003876; }
   .text-blue > span {
-    color: #007db8; }
+    color: #003876; }
 
 .text-dark-blue {
-  color: #00618F; }
+  color: #003876; }
   .text-dark-blue > span {
-    color: #00618F; }
+    color: #003876; }
 
 .text-light-green {
-  color: #C1D82F; }
+  color: #3E831C; }
   .text-light-green > span {
-    color: #C1D82F; }
+    color: #3E831C; }
 
 .text-green {
-  color: #6EA204; }
+  color: #3E831C; }
   .text-green > span {
-    color: #6EA204; }
+    color: #3E831C; }
 
 .text-yellow {
   color: #F2AF00; }
@@ -903,9 +855,9 @@ td.p-0 {
     color: #F2AF00; }
 
 .text-orange {
-  color: #EE6411; }
+  color: #FB4F14; }
   .text-orange > span {
-    color: #EE6411; }
+    color: #FB4F14; }
 
 .text-red {
   color: #D74324; }
@@ -923,9 +875,9 @@ td.p-0 {
     color: #B7295A; }
 
 .text-purple {
-  color: #6E2585; }
+  color: #614F83; }
   .text-purple > span {
-    color: #6E2585; }
+    color: #614F83; }
 
 .text-teal {
   color: #42AEAF; }
@@ -990,20 +942,13 @@ td.p-0 {
     font-size: 12px; }
 
 .text-size-10 {
-	font-size: 10px;
-}
-
-.text-size-10 td {
-	font-size: 10px;
-}
-
-.text-size-10 p {
-	font-size: 10px;
-}
-
-.text-size-10 span {
-	font-size: 10px;
-}
+  font-size: 10px; }
+  .text-size-10 td {
+    font-size: 10px; }
+  .text-size-10 p {
+    font-size: 10px; }
+  .text-size-10 span {
+    font-size: 10px; }
 
 h1 {
   font-size: 27px; }
@@ -1024,8 +969,7 @@ h5 {
   vertical-align: super; }
 
 .text-right {
-	text-align: right;
-}
+  text-align: right; }
 
 @media only screen and (max-width: 600px) {
   .text-size-17 {
@@ -1086,95 +1030,75 @@ h5 {
     font-size: 29px; }
 
   h5 {
-	  font-size: 17px;
-  }
+    font-size: 17px; }
 
   .text-left-sm {
-	  text-align: left !important;
-  }
-}
+    text-align: left !important; } }
 table.button {
-	overflow: visible;
-}
-
-table.button.button-width-auto {
-	width: auto;
-	display: inline-block;
-}
-
-table.button.button-underline a, table.button.button-underline a:visited {
-	text-decoration: underline;
-}
-
-table.button td {
-	padding: 5px 15px;
-	/* NOTE: Need to add !important when using this on O2 */
-	color: #ffffff;
-	white-space: nowrap;
-	/* Prevent button from wrapping */
-}
-
-table.button td a, table.button td a:visited {
-	font-size: 19px;
-	line-height: 1em;
+  overflow: visible; }
+  table.button.button-width-auto {
+    width: auto;
+    display: inline-block; }
+  table.button.button-underline a, table.button.button-underline a:visited {
+    text-decoration: underline; }
+  table.button td {
+    padding: 5px 15px;
+    /* NOTE: Need to add !important when using this on O2 */
+    color: #ffffff;
+    white-space: nowrap;
+    /* Prevent button from wrapping */ }
+    table.button td a, table.button td a:visited {
+      font-size: 19px;
+      line-height: 1em;
       color: #ffffff; }
-
-table.button td a > span, table.button td a:visited > span {
-	color: #ffffff;
-	white-space: nowrap;
-	/* Prevent button from wrapping */
-}
-
-table.button:hover td {
-	color: #ffffff;
-}
-
-table.button:hover td a {
-	color: #ffffff !important;
-}
-
-table.button td a:visited, table.button:active td a {
+      table.button td a > span, table.button td a:visited > span {
+        color: #ffffff;
+        white-space: nowrap;
+        /* Prevent button from wrapping */ }
+  table.button:hover td {
+    color: #ffffff; }
+    table.button:hover td a {
+      color: #ffffff !important; }
+  table.button td a:visited, table.button:active td a {
     color: #ffffff !important; }
-
-table.button td a:visited > span, table.button:active td a > span {
-	color: #ffffff !important;
-}
+    table.button td a:visited > span, table.button:active td a > span {
+      color: #ffffff !important; }
 table.button-blue td {
-  background-color: #007db8;
-  border: 1px solid #007db8; }
+  background-color: #016A9C;
+  border: 1px solid #016A9C; }
 table.button-blue:hover td {
-  background: #007db8 !important;
-  border: 1px solid #007db8; }
+  background: #016A9C !important;
+  border: 1px solid #016A9C; }
 table.button-dark-blue td {
-  background-color: #00618F;
-  border: 1px solid #00618F; }
+  background-color: #003876;
+  border: 1px solid #003876; }
 table.button-dark-blue:hover td {
-  background: #00618F !important;
-  border: 1px solid #00618F; }
+  background: #003876 !important;
+  border: 1px solid #003876; }
 table.button-purple td {
-  background-color: #6e2585;
-  border: 1px solid #6e2585; }
+  background-color: #614F83;
+  border: 1px solid #614F83; }
 table.button-purple:hover td {
-  background: #6e2585 !important;
-  border: 1px solid #6e2585; }
+  background: #614F83 !important;
+  border: 1px solid #614F83; }
 table.button-orange td {
-  background-color: #ff6633;
-  border: 1px solid #ff6633; }
+  background-color: #FB4F14;
+  border: 1px solid #FB4F14; }
 table.button-orange:hover td {
-  background: #ff6633 !important;
-  border: 1px solid #ff6633; }
+  background: #FB4F14 !important;
+  border: 1px solid #FB4F14; }
 table.button-green td {
-  background-color: #6EA204;
-  border: 1px solid #6EA204; }
+  background-color: #3E831C;
+  border: 1px solid #3E831C; }
 table.button-green:hover td {
-  background: #6EA204 !important;
-  border: 1px solid #6EA204; }
+  background: #3E831C !important;
+  border: 1px solid #3E831C; }
 table.button-light-green td {
-  background-color: #C1D82F;
-  border: 1px solid #C1D82F; }
+  background-color: #3E831C;
+  border: 1px solid #3E831C; }
 table.button-light-green:hover td {
-  background: #C1D82F !important;
-  border: 1px solid #C1D82F; }
+  background: #3E831C !important;
+  border: 1px solid #3E831C; }
 table.button-red td {
   background-color: #D74324;
   border: 1px solid #D74324; }
@@ -1206,17 +1130,13 @@ table.button-dark-gray:hover td {
   background: #333333 !important;
   border: 1px solid #333333; }
 table.button-wrapper {
-	margin-top: 20px;
-}
-
-table.button-wrapper .button {
-	margin: 0;
-}
+  margin-top: 20px; }
+  table.button-wrapper .button {
+    margin: 0; }
 
 .text-size-13 table.button td a, .text-size-13 table.button td a:visited {
   font-size: 13px;
-	line-height: 1.3em;
-}
+  line-height: 1.3em; }
 
 @media only screen and (max-width: 600px) {
   table.button.button-width-auto {
@@ -1228,8 +1148,7 @@ img.heading-icon {
   width: 80px; }
 img.inline-block {
   clear: none;
-	float: none;
-}
+  float: none; }
 
 .img-border {
   border: 1px solid #737373;
@@ -1245,5 +1164,10 @@ img.inline-block {
   mso-table-lspace: 0pt;
   mso-table-rspace: 0pt; }
 
-.border-t-grey {
-  border-top: 1px solid #ccc; }
+.border-t-gray, .border-t-grey {
+  border-top: 1px solid #aaaaaa; }
+
+.border-b-gray, .border-b-grey {
+  border-bottom: 1px solid #aaaaaa; }
+
+/*# sourceMappingURL=global.css.map */

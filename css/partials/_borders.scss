@@ -1,3 +1,7 @@
-.border-t-grey {
-  border-top: 1px solid #ccc;
+.border-t-gray, .border-t-grey {
+  border-top: 1px solid $border-color;
+}
+
+.border-b-gray, .border-b-grey {
+	border-bottom: 1px solid $border-color;
 }
