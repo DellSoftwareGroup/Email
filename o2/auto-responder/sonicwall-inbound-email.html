@@ -1,0 +1,392 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width" />
+</head>
+<body style="width: 100% !important; min-width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #444444; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0; padding: 0;"><style type="text/css">
+	@font-face {
+		font-family: 'museo-sans-for-dell-100'; src: url("http://software.dell.com/fonts/museosansfordell-100-webfont.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/museosansfordell-100-webfont.woff") format("woff"), url("http://software.dell.com/fonts/museosansfordell-100-webfont.ttf") format("truetype"), url("http://software.dell.com/fonts/museosansfordell-100-webfont.svg#MuseoSansForDell100") format("svg"); font-weight: normal; font-style: normal;
+	}
+	@font-face {
+		font-family: 'museo-sans-for-dell-300'; src: url("http://software.dell.com/fonts/museosansfordell-300-webfont.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/museosansfordell-300-webfont.woff") format("woff"), url("http://software.dell.com/fonts/museosansfordell-300-webfont.ttf") format("truetype"), url("http://software.dell.com/fonts/museosansfordell-300-webfont.svg#MuseoSansForDell300") format("svg"); font-weight: normal; font-style: normal;
+	}
+	@font-face {
+		font-family: 'museo-sans-for-dell-700'; src: url("http://software.dell.com/fonts/museosansfordell-700-webfont.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/museosansfordell-700-webfont.woff") format("woff"), url("http://software.dell.com/fonts/museosansfordell-700-webfont.ttf") format("truetype"), url("http://software.dell.com/fonts/museosansfordell-700-webfont.svg#MuseoSansForDell700") format("svg"); font-weight: normal; font-style: normal;
+	}
+	@font-face {
+		font-family: 'icon-ui'; src: url("http://software.dell.com/fonts/icon-ui.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/icon-ui.woff") format("woff"), url("http://software.dell.com/fonts/icon-ui.ttf") format("truetype"), url("http://software.dell.com/fonts/icon-ui.svg#icon-ui") format("svg"); font-weight: normal; font-style: normal;
+	}
+	@font-face {
+		font-family: 'icon-small'; src: url("http://software.dell.com/fonts/icon-small.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/icon-small.woff") format("woff"), url("http://software.dell.com/fonts/icon-small.ttf") format("truetype"), url("http://software.dell.com/fonts/icon-small.svg#icon-small") format("svg"); font-weight: normal; font-style: normal;
+	}
+	@font-face {
+		font-family: 'icon-large'; src: url("http://software.dell.com/fonts/icon-large.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/icon-large.woff") format("woff"), url("http://software.dell.com/fonts/icon-large.ttf") format("truetype"), url("http://software.dell.com/fonts/icon-large.svg#icon-large") format("svg"); font-weight: normal; font-style: normal;
+	}
+	@font-face {
+		font-family: 'Glyphicons Halflings'; src: url("http://software.dell.com/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.woff") format("woff"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("http://software.dell.com/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+	}
+	a:hover {
+		color: #2795b6 !important;
+	}
+	a:active {
+		color: #2795b6 !important;
+	}
+	a:visited {
+		color: #2ba6cb !important;
+	}
+	h1 a:active {
+		color: #2ba6cb !important;
+	}
+	h2 a:active {
+		color: #2ba6cb !important;
+	}
+	h3 a:active {
+		color: #2ba6cb !important;
+	}
+	h4 a:active {
+		color: #2ba6cb !important;
+	}
+	h5 a:active {
+		color: #2ba6cb !important;
+	}
+	h6 a:active {
+		color: #2ba6cb !important;
+	}
+	h1 a:visited {
+		color: #2ba6cb !important;
+	}
+	h2 a:visited {
+		color: #2ba6cb !important;
+	}
+	h3 a:visited {
+		color: #2ba6cb !important;
+	}
+	h4 a:visited {
+		color: #2ba6cb !important;
+	}
+	h5 a:visited {
+		color: #2ba6cb !important;
+	}
+	h6 a:visited {
+		color: #2ba6cb !important;
+	}
+	table.button td a:visited {
+		text-decoration: none; font-family: Helvetica, Arial, sans-serif; color: #ffffff; font-size: 16px; white-space: nowrap; display: block;
+	}
+	table.button td.button-grey a:visited {
+		color: #007db8;
+	}
+	table.button:hover td {
+		background: #005a85; border: 1px solid #004261;
+	}
+	table.button:visited td {
+		background: #005a85; border: 1px solid #004261;
+	}
+	table.button:active td {
+		background: #005a85; border: 1px solid #004261;
+	}
+	table.button:hover td a {
+		color: #ffffff;
+	}
+	table.button:hover td a:visited {
+		color: #ffffff;
+	}
+	table.button:visited td a {
+		color: #ffffff;
+	}
+	table.button:visited td a:visited {
+		color: #ffffff;
+	}
+	table.button:active td a {
+		color: #ffffff;
+	}
+	table.button:active td a:visited {
+		color: #ffffff;
+	}
+	table.button:hover td.button-grey {
+		background: #d4d4d4; border: 1px solid #adadad;
+	}
+	table.button:visited td.button-grey {
+		background: #d4d4d4; border: 1px solid #adadad;
+	}
+	table.button:active td.button-grey {
+		background: #d4d4d4; border: 1px solid #adadad;
+	}
+	table.button:hover td.button-grey a {
+		color: #007db8;
+	}
+	table.button:hover td.button-grey a:visited {
+		color: #007db8;
+	}
+	table.button:visited td.button-grey a {
+		color: #007db8;
+	}
+	table.button:visited td.button-grey a:visited {
+		color: #007db8;
+	}
+	table.button:active td.button-grey a {
+		color: #007db8;
+	}
+	table.button:active td.button-grey a:visited {
+		color: #007db8;
+	}
+	table.secondary:hover td {
+		background: #d0d0d0 !important; color: #555555;
+	}
+	table.secondary:hover td a {
+		color: #555555 !important;
+	}
+	table.secondary td a:visited {
+		color: #555555 !important;
+	}
+	table.secondary:active td a {
+		color: #555555 !important;
+	}
+	table.success:hover td {
+		background: #457a1a !important;
+	}
+	table.alert:hover td {
+		background: #970b0e !important;
+	}
+	@media only screen and (max-width: 600px) {
+		table[class="body"] img {
+			width: auto !important; height: auto !important;
+		}
+		table[class="body"] center {
+			min-width: 0 !important;
+		}
+		table[class="body"] .container {
+			width: 95% !important;
+		}
+		table[class="body"] .row {
+			width: 100% !important; display: block !important;
+		}
+		table[class="body"] .wrapper {
+			display: block !important; padding-right: 0 !important;
+		}
+		table[class="body"] .columns {
+			table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+		}
+		table[class="body"] .column {
+			table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+		}
+		table[class="body"] .wrapper.first .columns {
+			display: table !important;
+		}
+		table[class="body"] .wrapper.first .column {
+			display: table !important;
+		}
+		table[class="body"] table.columns td {
+			width: 100% !important;
+		}
+		table[class="body"] table.column td {
+			width: 100% !important;
+		}
+		table[class="body"] .columns td.one {
+			width: 8.333333% !important;
+		}
+		table[class="body"] .column td.one {
+			width: 8.333333% !important;
+		}
+		table[class="body"] .columns td.two {
+			width: 16.666666% !important;
+		}
+		table[class="body"] .column td.two {
+			width: 16.666666% !important;
+		}
+		table[class="body"] .columns td.three {
+			width: 25% !important;
+		}
+		table[class="body"] .column td.three {
+			width: 25% !important;
+		}
+		table[class="body"] .columns td.four {
+			width: 33.333333% !important;
+		}
+		table[class="body"] .column td.four {
+			width: 33.333333% !important;
+		}
+		table[class="body"] .columns td.five {
+			width: 41.666666% !important;
+		}
+		table[class="body"] .column td.five {
+			width: 41.666666% !important;
+		}
+		table[class="body"] .columns td.six {
+			width: 50% !important;
+		}
+		table[class="body"] .column td.six {
+			width: 50% !important;
+		}
+		table[class="body"] .columns td.seven {
+			width: 58.333333% !important;
+		}
+		table[class="body"] .column td.seven {
+			width: 58.333333% !important;
+		}
+		table[class="body"] .columns td.eight {
+			width: 66.666666% !important;
+		}
+		table[class="body"] .column td.eight {
+			width: 66.666666% !important;
+		}
+		table[class="body"] .columns td.nine {
+			width: 75% !important;
+		}
+		table[class="body"] .column td.nine {
+			width: 75% !important;
+		}
+		table[class="body"] .columns td.ten {
+			width: 83.333333% !important;
+		}
+		table[class="body"] .column td.ten {
+			width: 83.333333% !important;
+		}
+		table[class="body"] .columns td.eleven {
+			width: 91.666666% !important;
+		}
+		table[class="body"] .column td.eleven {
+			width: 91.666666% !important;
+		}
+		table[class="body"] .columns td.twelve {
+			width: 100% !important;
+		}
+		table[class="body"] .column td.twelve {
+			width: 100% !important;
+		}
+		table[class="body"] td.offset-by-one {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-two {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-three {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-four {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-five {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-six {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-seven {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-eight {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-nine {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-ten {
+			padding-left: 0 !important;
+		}
+		table[class="body"] td.offset-by-eleven {
+			padding-left: 0 !important;
+		}
+		table[class="body"] table.columns td.expander {
+			width: 1px !important;
+		}
+		table[class="body"] .right-text-pad {
+			padding-left: 10px !important;
+		}
+		table[class="body"] .text-pad-right {
+			padding-left: 10px !important;
+		}
+		table[class="body"] .left-text-pad {
+			padding-right: 10px !important;
+		}
+		table[class="body"] .text-pad-left {
+			padding-right: 10px !important;
+		}
+		table[class="body"] .hide-for-small {
+			display: none !important;
+		}
+		table[class="body"] .show-for-desktop {
+			display: none !important;
+		}
+		table[class="body"] .show-for-small {
+			display: inherit !important;
+		}
+		table[class="body"] .hide-for-desktop {
+			display: inherit !important;
+		}
+	}
+</style>
+
+<table class="body" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #444444; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #444444; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
+
+	<table class="header" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; color: #ffffff; background: #007cb8; padding: 0;" bgcolor="#007cb8"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td class="center" align="center" valign="top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+		<center style="width: 100%; min-width: 580px;">
+			<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
+
+				<div $$onlineoption$$>
+					<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+
+						<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
+							View this email <a href="$$onlineurl$$/" style="color: #ffffff; text-decoration: underline;">online</a>
+						</td>
+							<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						</tr></table></td>
+					</tr></table></div>
+
+				<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+					<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
+						<img src="http://www.sonicwall.com/images/email/dell-security-logo-white-sm.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" align="left" /></td>
+						<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+					</tr></table></td>
+				</tr></table></td>
+			</tr></table></center>
+	</td>
+	</tr></table>
+
+	$$content$$
+
+	<table class="footer" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; color: #ffffff; background: #007cb8; padding: 0;" bgcolor="#007cb8"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td class="center" align="center" valign="top" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;">
+		<center style="width: 100%; min-width: 580px;">
+			<table class="container" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 0 10px;" align="left" valign="top">
+
+				<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td class="wrapper hide-for-small" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 20px 0px 0px;" align="left" valign="top">
+
+					<table class="five columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 230px; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px;" align="left" valign="top">
+						<img src="http://www.sonicwall.com/images/email/dell-security-logo-white-lg.png" style="outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;" align="left" /></td>
+						<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+					</tr></table></td>
+					<td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 10px 0px 0px;" align="left" valign="top">
+
+						<table class="seven columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 330px; margin: 0 auto; padding: 0;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td class="text-sm" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 1.3em; font-size: 11px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top">
+							Dell Security
+							<br />
+							5455 Great America Parkway, Santa Clara, CA 95054
+							<br /><br />
+							Contact Us:
+							<br />
+							1-800-509-1265
+							<br /><a href="mailto:sales@sonicwall.com" style="color: #ffffff; text-decoration: underline;">sales@sonicwall.com</a>
+						</td>
+							<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+						</tr></table></td>
+				</tr></table><table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position: relative; display: block; padding: 0px;"><tr style="vertical-align: top; text-align: left; padding: 0;" align="left"><td class="wrapper last text-sm center" align="center" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; position: relative; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 1.3em; font-size: 11px; margin: 0; padding: 10px 0px 0px;" valign="top">
+				<center style="width: 100%; min-width: 580px;">
+					<a href="http://www.sonicwall.com" style="color: #ffffff; text-decoration: underline;">www.sonicwall.com</a> | <a href="http://www.sonicwall.com/legal/privacy.aspx" style="color: #ffffff; text-decoration: underline;">Privacy Statement</a> |
+					<a href="https://ecomm.dell.com/GSC/ListRemoval/Index?returnPath=www.dell.com/content/topics/global.aspx/policy/en/country_specific&amp;s=gen&amp;~section=023&amp;c=us&amp;l=en" style="color: #ffffff; text-decoration: underline;">Unsubscribe from Dell</a> | <a href="http://www.sonicwall.com/unsubscribe" style="color: #ffffff; text-decoration: underline;">Unsubscribe from Dell Security</a>
+
+					<br />
+
+					This email is an advertisement or solicitation from Dell Security. © 2015 Dell Inc. All rights reserved.
+				</center>
+			</td>
+			</tr></table></td>
+			</tr></table></center>
+	</td>
+	</tr></table></td>
+</tr></table>
+
+<img src="http://activate.software.dell.com/no-content?at=7" width="1" height="1"/>
+
+</body>
+</html>
