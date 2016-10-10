@@ -281,7 +281,7 @@ img.center {
 /* Typography */
 body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   color: #333333;
-  font-family: "Trebuchet MS", "Helvetica", "Arial", sans-serif;
+  font-family: "Trebuchet MS", "MS PGothic", "Helvetica", "Arial", sans-serif;
   font-weight: normal;
   padding: 0;
   margin: 0;
@@ -289,7 +289,7 @@ body, table.body, h1, h2, h3, h4, h5, h6, p, td {
   line-height: 1.3; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Trebuchet MS", "Roboto", "Segoe UI", "Helvetica Neue", "Meiryo UI Reg", "πâíπéñπâ¬πé¬ Reg", "MS UI Gothic Reg", "Hiragino Kaku Gothic Reg", "πâÆπâ⌐πé«πâÄΦºÆπé┤ Pro W3 Reg", "Microsoft YaHei", "σ╛«Φ╜»Θ¢àΘ╗æ", "Hiragino Sans GB", "Microsoft JhengHei", "σ╛«Φ╗ƒµ¡úΘ╗æΘ½ö", "Malgun Gothic", Gulim, Tahoma, "Arial Unicode", sans-serif;
+  font-family: "Trebuchet MS", "MS PGothic", "Roboto", "Segoe UI", "Helvetica Neue", "Meiryo UI Reg", "πâíπéñπâ¬πé¬ Reg", "MS UI Gothic Reg", "Hiragino Kaku Gothic Reg", "πâÆπâ⌐πé«πâÄΦºÆπé┤ Pro W3 Reg", "Microsoft YaHei", "σ╛«Φ╜»Θ¢àΘ╗æ", "Hiragino Sans GB", "Microsoft JhengHei", "σ╛«Φ╗ƒµ¡úΘ╗æΘ½ö", "Malgun Gothic", Gulim, Tahoma, "Arial Unicode", sans-serif;
   word-break: normal; }
 
 h1 {
@@ -367,7 +367,7 @@ table.button {
     padding: 8px; }
     table.button td a, table.button td a:visited {
       text-decoration: none;
-      font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+      font-family: "Trebuchet MS", "MS PGothic", Helvetica, Arial, sans-serif;
       color: #ffffff;
       font-size: 16px;
       white-space: nowrap;
