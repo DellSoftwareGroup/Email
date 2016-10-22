@@ -41,6 +41,25 @@ class Widget
 				}
 			}
 		}
+		else if (preg_match_all("/\[\[file:(.+)\]\]/", $this->html, $m)) {
+			$curPath = explode('/', $_SERVER['REQUEST_URI']);
+			array_pop($curPath);
+			$curPath = implode('/', $curPath) . '/';
+
+			$hasVars = true;
+
+			foreach ($m[1] as $indx => $widgetName) {
+				if (file_exists(__DIR__ . $curPath . $widgetName . '.htm')) {
+					$this->html = str_replace($m[0][$indx], file_get_contents(__DIR__ . $curPath . $widgetName . '.htm'), $this->html);
+				}
+				else if (file_exists(__DIR__ . $curPath . $widgetName . '.html')) {
+					$this->html = str_replace($m[0][$indx], file_get_contents(__DIR__ . $curPath . $widgetName . '.html'), $this->html);
+				}
+				else {
+					$this->html = str_replace($m[0][$indx], '', $this->html);
+				}
+			}
+		}
 
 		if ($hasVars) {
 			$this->parseSubWidget();
