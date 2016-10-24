@@ -139,11 +139,20 @@ class Widget
 		return $ranString;
 	}
 
-	function content() {
+	function content($useTestData = true) {
+		$content = '';
+
 		if (isset($_GET['no-process'])) {
-			return $this->html;
+			$content = $this->html;
+		}
+		else {
+			$content = $this->emogrifier();
 		}
 
-		return $this->emogrifier();
+		if($useTestData) {
+			$content = preg_replace("/<!--Test\[(.*?)]\-->/", "$1", $content);
+		}
+
+		return $content;
 	}
 }

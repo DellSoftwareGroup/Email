@@ -5,6 +5,7 @@ require 'Emogrifier.php';
 $widget = new Widget();
 
 $toolbar = '';
+$useTestData = true;
 
 if (isset($_GET['download'])) {
 	$info = pathinfo($_GET['page']);
@@ -31,7 +32,11 @@ END;
 	$toolbar .= '</div>';
 }
 
-$content = $widget->content();
+if(isset($_GET['testData'])) {
+	$useTestData = $_GET['testData'] == 'true' ? true:false;
+}
+
+$content = $widget->content($useTestData);
 
 $content = str_replace('</body>', $toolbar . '</body>', $content);
 
