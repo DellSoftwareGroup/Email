@@ -1,8 +1,9 @@
 <!-- http://stage-o2/EmailTemplates/?action=edit&id=116376&Type=0 -->
+<img src="https://www.quest.com/images/email/blank.gif" width="20" height="20" style="float: none;">
+
 <table class="container">
 	<tr>
 		<td>
-			<img src="https://www.quest.com/images/email/blank.gif" width="20" height="20">
 			<table class="row">
 				<tr>
 					<td class="wrapper last pb-20">
@@ -10,11 +11,12 @@
 						<table class="twelve columns">
 							<tr>
 								<td class="text-pad">
-									$$content$$
+									<strong>$$content$$</strong>
+
 									&nbsp;
-									<table class="medium button button-blue button-width-auto mb-5 mt-10">
+									<table class="medium button mb-5 mt-10">
 										<tr>
-											<td>
+											<td class="button-grey">
 												<a href="$$CTA_URL$$">
 													<span>$$CTA_Text$$</span>
 												</a>
@@ -29,33 +31,41 @@
 					</td>
 				</tr>
 			</table>
+		</td>
+	</tr>
+</table>
 
+<table class="container">
+	<tr>
+		<td>
 			<table class="row">
 				<tr>
-					<td class="wrapper">
+					<td class="wrapper bg-light-grey">
 						<table class="six columns">
 							<tr>
-								<td align="right" class="text-right text-pad">
-									<a href="$$SecondaryCTA_URL$$" class="text-white text-underline">
-										<img src="$$SecondaryImage_Path$$" alt="$$SecondaryCTA_AltText$$" style="height: auto; width: 220px; max-width: 220px !important;" />
-									</a>
+								<td align="center">
+									<center>
+										<a href="$$SecondaryCTA_URL$$" class="text-white text-underline">
+											<img src="$$SecondaryImage_Path$$" alt="$$SecondaryCTA_AltText$$" style="height: auto; width: 220px; max-width: 220px !important; float: none; margin: 0 auto;" />
+										</a>
+									</center>
 								</td>
 								<td class="expander"></td>
 							</tr>
 						</table>
 					</td>
-					<td class="wrapper last">
+					<td class="wrapper last bg-light-grey">
 						<table class="six columns">
 							<tr>
-								<td class="text-pad-left">
+								<td class="text-pad-right">
 									<h2><strong>$$secondarytitle$$</strong></h2>
 									$$secondarycontent$$
 
 									&nbsp;
-									<table class="medium button button-blue button-width-auto mb-5 mt-10">
+									<table class="medium button mb-5 mt-10">
 										<tr>
 											<td>
-												<a href="$$SecondaryCTA_URL$$" class="text-underline">
+												<a href="$$SecondaryCTA_URL$$">
 													<span>$$SecondaryCTA_Text$$</span>
 												</a>
 											</td>
@@ -69,7 +79,13 @@
 					</td>
 				</tr>
 			</table>
+		</td>
+	</tr>
+</table>
 
+<table class="container">
+	<tr>
+		<td>
 			<table class="row">
 				<tr>
 					<td class="wrapper last">

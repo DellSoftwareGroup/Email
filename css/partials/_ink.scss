@@ -420,6 +420,13 @@ h2 {
 	line-height: 1.16667;
 	font-weight: 500;
 	margin-bottom: 20px;
+
+	p {
+		font-size: 24px;
+		line-height: 1.16667;
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
 }
 
 h3 {
@@ -519,6 +526,10 @@ table {
 				border: 1px solid $btn-grey-border-color;
 				a, a:visited {
 					color: $btn-grey-text-color;
+					> span {
+						color: $btn-grey-text-color;
+						white-space: nowrap; /* Prevent button from wrapping */
+					}
 				}
 			}
 		}
