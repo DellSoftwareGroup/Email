@@ -6,3 +6,5 @@
 
 emails/**/dest
 emails/**/dest/*
+!/css/global-v2.css
+!/css/global-v2.css.map
