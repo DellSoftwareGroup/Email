@@ -38,6 +38,6 @@ if(isset($_GET['testData'])) {
 
 $content = $widget->content($useTestData);
 
-$content = str_replace('</body>', $toolbar . '</body>', $content);
+$content = str_replace('</body>', $toolbar . "\n" . '</body>', $content);
 
 echo $content;

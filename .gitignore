@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/*
 
+/css/dest
 /css/**/*.css
 *.css.map
 
@@ -8,3 +9,5 @@ emails/**/dest
 emails/**/dest/*
 !/css/global-v2.css
 !/css/global-v2.css.map
+
+/node_modules
